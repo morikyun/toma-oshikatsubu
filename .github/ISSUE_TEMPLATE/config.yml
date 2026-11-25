@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: はじめての方へ：登録方法と記入例を読む
+    url: https://github.com/morikyun/toma-oshikatsubu/blob/main/README.md
+    about: どのフォームを選ぶか、何を書くか、順番にご案内します

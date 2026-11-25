@@ -1,0 +1,81 @@
+name: 今あるページを直したい
+description: 文章・名前・リンクを直す、今あるページに情報を足す、見た目を変える
+title: '[修正] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        気づいたことを、いつもの言葉で教えてください。ITの知識は必要ありません。
+        上の「タイトル」には、**「[修正] ファンのYouTubeの紹介文を変えたい」**のように、お願いしたいことを短く書いてください。
+        必須の項目だけでも送れます。複数のお願いがあるときは、内容ごとに分けると確認しやすくなります。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。
+  - type: dropdown
+    id: page
+    attributes:
+      label: どのページを直したいですか？
+      description: サイトのメニューに出ている名前から選んでください。
+      options:
+        - トップページ
+        - はじめての方へ
+        - ライブの楽しみ方
+        - ことばの案内帳
+        - ファンのYouTube
+        - これからの予定
+        - 推し活部について
+        - 公式ファンクラブ TOMA BOX
+        - このサイトについて
+        - プライバシーポリシー
+        - 複数のページ
+        - その他・どのページか分からない
+    validations:
+      required: true
+  - type: input
+    id: page-url
+    attributes:
+      label: そのページのURL（任意）
+      description: URLは、ページを開いたときに画面上部に表示されるアドレスです。分からなければ空欄で大丈夫です。
+      placeholder: https://toma-oshikatsubu.pages.dev/videos/
+  - type: textarea
+    id: current-part
+    attributes:
+      label: ページのどの部分を直したいですか？
+      description: 見出し、人の名前、いま書かれている文章など、場所が分かる情報を教えてください。
+      placeholder: |
+        例：ファンのYouTubeにある、私のチャンネルの紹介文です。
+        いまは「〇〇について発信しています」と書かれています。
+    validations:
+      required: true
+  - type: textarea
+    id: desired-change
+    attributes:
+      label: どう変えたいですか？
+      description: 変更後の文章やリンク、足したい内容を教えてください。文章が決まっていなければ、希望だけでも大丈夫です。
+      placeholder: |
+        例：「總水とおまさんのライブの感想や、日々の気づきをお話ししています」に変えてほしいです。
+        リンクを変えたい場合は、新しいURLもここに貼ってください。
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考のURL・画像・補足（任意）
+      description: 公式の案内や参考記事があれば教えてください。説明しにくい場合は、この欄に画面の画像を貼り付けても大丈夫です。
+      placeholder: 参考になるページのURLや、変更したい理由など
+  - type: dropdown
+    id: language
+    attributes:
+      label: 見ていたページの言語（任意）
+      options:
+        - 分からない・指定なし
+        - 日本語
+        - English
+        - 中国語（簡体字）
+        - 中国語（繁体字）
+        - 複数の言語
+      default: 0
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営が内容を確認します。確認したいことがあれば、この依頼のコメント欄でお聞きします。

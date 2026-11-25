@@ -1,0 +1,51 @@
+name: 表示がおかしい・リンクが開かない
+description: 文字が読めない、ボタンが押せないなど、困っていることを知らせる
+title: '[困っていること] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        うまく使えないところがあれば、分かる範囲で教えてください。原因を調べたり、専門用語を使ったりする必要はありません。
+        上の「タイトル」には、**「[困っていること] スマホで文字が重なって読めない」**のように短く書いてください。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。画像を添える場合も、個人情報が写っていないものをお願いします。
+  - type: input
+    id: page
+    attributes:
+      label: どのページで困っていますか？
+      description: ページの名前かURL（アドレス）を教えてください。
+      placeholder: 例：スマホで開いた「ファンのYouTube」のページ
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: どんなことが起きましたか？
+      description: 何をしようとして、どこで困ったかを教えてください。
+      placeholder: 例：チャンネルを探そうとしたら、名前と紹介文が重なっていて読めませんでした。
+    validations:
+      required: true
+  - type: dropdown
+    id: device
+    attributes:
+      label: 何でサイトを見ていましたか？（任意）
+      options:
+        - 分からない
+        - iPhone
+        - Androidのスマートフォン
+        - iPad・その他のタブレット
+        - Windowsのパソコン
+        - Macのパソコン
+        - その他
+      default: 0
+  - type: textarea
+    id: details
+    attributes:
+      label: 画面の画像・補足（任意）
+      description: この欄に画面の画像を貼り付けられます。起きた日時、見ていた言語、使っていたアプリ名なども、分かれば教えてください。
+      placeholder: 例：今日の夕方に、日本語のページをSafariで見ていました。
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営が確認します。追加で教えていただきたいことがあれば、コメント欄でお聞きします。
