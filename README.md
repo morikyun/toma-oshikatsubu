@@ -2,7 +2,7 @@
 
 總水とおまさんを応援する非公式ファンコミュニティのサイトです。生成り・ネイビー・淡い紫を基調に、スマートフォンでも読める構成にしています。
 
-Cloudflare Pages用のHTMLと、YouTube・ブログの情報を取得するWorkerを同梱しています。生成にはNode.js 20以上と、HTMLの翻訳処理用のparse5を使用します。初回は `npm ci` で依存パッケージを準備してください。本番サイトは https://toma-oshikatsubu.pages.dev/ です。ローカルで更新した内容は、公開用ZIPの再アップロード後に本番へ反映されます。
+Cloudflare Pages用のHTMLと、YouTube・ブログの情報を取得するWorkerを同梱しています。生成にはNode.js 20以上と、HTMLの翻訳処理用のparse5を使用します。初回は `npm ci` で依存パッケージを準備してください。本番サイトは https://toma-oshikatsubu.pages.dev/ です。ソースは [GitHub](https://github.com/morikyun/toma-oshikatsubu) で管理します。PRの確認用サイトをチェックし、運営者がmainへマージすると、GitHub Actionsから現在のCloudflare Pagesへ公開します。初回設定・操作方法は [Issueから確認・公開まで](docs/GITHUB_WORKFLOW.md) を参照してください。
 
 ## 日本語・英語・中国語（簡体字／繁体字）
 
@@ -179,6 +179,8 @@ HTML・CSSの変更は、別のターミナルで `npm run build` を実行し�
 
 ## Cloudflare Pagesに公開する
 
+通常は [GitHubのPR](https://github.com/morikyun/toma-oshikatsubu/pulls) で修正を確認してマージします。**Build and test** と **Deploy preview** の成功後、運営者morikyunのマージで本番公開が実行されます。現在のPagesプロジェクトを維持するため、GitHub ActionsからDirect Uploadを実行します。詳しくは [運用・初回設定](docs/GITHUB_WORKFLOW.md) を参照してください。
+
 ### ZIPをアップロードする場合
 
 1. 同梱の `toma-oshikatsu-cloudflare-pages.zip` を使用します。
@@ -188,18 +190,13 @@ HTML・CSSの変更は、別のターミナルで `npm run build` を実行し�
 
 ZIPの最上位には `index.html`、`_worker.js`、`_routes.json` が入っています。`dist` フォルダーをアップロードしても利用できます。`_worker.js` はダッシュボードの直接アップロードに対応しています。[Cloudflare公式手順](https://developers.cloudflare.com/pages/get-started/direct-upload/)
 
-ZIPの再作成は `npm run package`（Python 3が必要）。直接アップロードのプロジェクトは後からGit連携に切り替えられないため、Git更新を使う場合は最初から次の方法を選びます。
+ZIPの再作成は `npm run package`（Python 3が必要）。通常はGitHub Actionsがアップロードを担当するため、ZIPの手動更新は不要です。
 
-### Git連携の場合
+### GitHub Actionsによる自動公開
 
-サイトのフォルダーだけをGitHubまたはGitLabのリポジトリーに置き、Pagesで接続します。
+`.github/workflows/pages.yml` が、PR時の検証・プレビューとmainへのマージ後の本番公開を担当します。公開物はチェック済みの `dist/` のみです。CloudflareのAPIキー・KVなどはダッシュボードの既存設定を使います。`wrangler.toml` 等は追加しません。
 
-| 設定 | 値 |
-| --- | --- |
-| フレームワーク | なし |
-| ビルドコマンド | `npm run build` |
-| ビルド出力ディレクトリー | `dist` |
-| ルートディレクトリー | サイトだけなら空欄。アーカイブ全体なら `sites/toma-oshikatsu` |
+直接アップロードで作成したPagesプロジェクトをCloudflare標準のGit連携へ切り替える必要はありません。GitHubの `CLOUDFLARE_ACCOUNT_ID` と `CLOUDFLARE_API_TOKEN` で現在のプロジェクトへ公開できます。
 
 `content/site.json` の `baseUrl` は `https://toma-oshikatsubu.pages.dev` に設定済みです。独自ドメインなどに変更する場合はこの値を変更して再ビルドします。canonical・OG URL・画像の絶対URL・sitemap.xmlを生成します。
 
@@ -246,7 +243,7 @@ ZIPの再作成は `npm run package`（Python 3が必要）。直接アップロ
 - 動画は自動再生しません。直近の公式動画は埋め込み表示し、その他の動画はリンクからYouTubeが別タブで開きます。サムネイルはYouTubeの画像配信元から読み込みます。
 - Workerの実行は `/api/*` のみ。キーはサーバーの環境変数から参照し、HTML・ブラウザーの通信・ZIPには入りません。
 - 独自のアクセス解析・広告・Cookieは使っていません。表示設定のlocalStorageは使用しません。Cloudflare等の外部サービスの処理はプライバシーポリシーで説明しています。持ち物チェックはページを開いている間だけ保持します。
-- 元資料や検証メモは `research/` に保存し、公開用の `dist/`・ZIPには含めません。
+- 元資料や検証メモは `research/` に保存し、GitHub・公開用の `dist/`・ZIPには含めません。
 
 ```sh
 npm run build

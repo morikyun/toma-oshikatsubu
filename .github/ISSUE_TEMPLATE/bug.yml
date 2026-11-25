@@ -1,0 +1,22 @@
+name: 表示・動作の不具合を知らせる
+description: 表示崩れ、リンク切れ、自動更新の不具合など
+title: '[不具合] '
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 不具合があるページのURL
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: 起きていること・期待する動き
+      description: 操作の手順や画像があると確認しやすくなります。画像に個人情報が写らないようご注意ください。
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 端末・ブラウザー・表示言語
+      placeholder: 例：iPhone / Safari / 日本語
