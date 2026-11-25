@@ -1,0 +1,37 @@
+name: 質問・相談したい
+description: サイトの内容や使い方の質問。どのフォームを選ぶか迷ったときもこちら
+title: '[質問・相談] '
+labels: ['質問・相談']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        分からないことや、まだまとまっていない相談も、いつもの言葉で教えてください。
+        このフォームでは、**「質問・相談」**のラベルが自動で付きます。内容に合わせて、運営があとから分類できます。
+        上の「タイトル」には、**「[質問・相談] チャンネルの紹介文を追加したいので相談したい」**のように短く書いてください。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問・相談したいことを教えてください
+      description: 分かる範囲だけで大丈夫です。どこから相談すればよいか迷っていることも書けます。
+      placeholder: 例：ファンのYouTubeに、自分のチャンネルの紹介文を追加したいです。どんな内容を用意すればよいですか？
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: 関係するページの名前・URL（任意）
+      description: URLは画面上部に表示されるアドレスです。分からなければ空欄で大丈夫です。
+      placeholder: 例：ファンのYouTube
+  - type: textarea
+    id: details
+    attributes:
+      label: 画像・補足（任意）
+      description: 参考になる画面の画像などがあれば、この欄に貼り付けてください。個人情報が写っていないものをお願いします。
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営がコメント欄でお返事します。
