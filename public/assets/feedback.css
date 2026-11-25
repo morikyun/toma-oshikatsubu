@@ -1,0 +1,55 @@
+/* A calm, readable route from the guide to its public request forms. */
+.feedback-jumps{display:flex;align-items:center;flex-wrap:wrap;gap:12px 28px;margin-top:-16px;margin-bottom:40px}
+.feedback-jumps .button{min-height:48px}
+.feedback-jumps .text-link{text-decoration:underline;text-underline-offset:5px}
+.feedback-overview{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:48px;align-items:start}
+.feedback-copy h2{font-size:1.875rem;margin-bottom:20px}
+.feedback-copy p{font-size:1rem;line-height:1.9;margin-bottom:18px;max-width:38rem}
+.feedback-copy p:last-child{margin-bottom:0}
+.feedback-before{padding:28px 30px;background:#eee9f1;border:1px solid #d3c8dd;border-radius:5px}
+.feedback-before h3{font-size:1.125rem;margin-bottom:16px}
+.feedback-before ul{padding-left:1.3em;margin:0}
+.feedback-before li{padding-left:4px;font-size:1rem;line-height:1.85}
+.feedback-before li+li{margin-top:12px}
+.feedback-before .text-link{margin-top:16px;text-decoration:underline;text-underline-offset:5px}
+.feedback-options .eyebrow,.feedback-how .eyebrow{font-size:.875rem;color:#79663f}
+.feedback-options h2,.feedback-how h2{font-size:1.875rem;margin-bottom:14px}
+.feedback-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.feedback-card{display:flex;flex-direction:column;align-items:flex-start;padding:26px;background:var(--white);border:1px solid var(--line);border-radius:5px;transition:border-color .2s,background .2s}
+.feedback-card:hover{border-color:#9c8155;background:#fffdfa}
+.feedback-card h3{font-size:1.125rem;line-height:1.65;margin-bottom:12px}
+.feedback-card p{font-size:1rem;line-height:1.85;color:var(--muted);margin-bottom:18px}
+.feedback-card-action{margin-top:auto;padding-top:8px;font-size:.875rem;font-weight:600;text-decoration:underline;text-underline-offset:5px}
+.feedback-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;margin:28px 0;padding-left:24px}
+.feedback-steps li{padding-left:6px}
+.feedback-steps li::marker{color:#79663f;font-size:1.125rem;font-weight:600}
+.feedback-steps h3{font-size:1.125rem;margin-bottom:12px}
+.feedback-steps p,.feedback-followup{font-size:1rem;line-height:1.9;color:var(--muted);margin-bottom:0}
+.feedback-followup{padding:22px 0;border-top:1px solid var(--line)}
+.feedback-guide,.feedback-private,.feedback-invite{display:flex;align-items:center;justify-content:space-between;gap:24px 40px;border:1px solid var(--line);border-radius:5px;padding:30px 32px}
+.feedback-guide{background:#f0ede5}
+.feedback-guide>div,.feedback-private>div,.feedback-invite>div{min-width:0}
+.feedback-guide h3{font-size:1.125rem;margin-bottom:8px}
+.feedback-guide p,.feedback-private p,.feedback-invite p{font-size:1rem;line-height:1.9;margin-bottom:0}
+.feedback-guide .button,.feedback-private .button,.feedback-invite .button{flex-shrink:0;min-height:48px}
+.feedback-existing{margin:18px 0 0}
+.feedback-existing .text-link{text-decoration:underline;text-underline-offset:5px}
+.feedback-private{background:var(--white)}
+.feedback-private h2,.feedback-invite h2{font-size:1.5rem;line-height:1.65;margin-bottom:10px}
+.feedback-private .text-link{margin-top:8px;text-decoration:underline;text-underline-offset:5px}
+.feedback-invite{margin-bottom:48px;background:#eee9f1;border-color:#d3c8dd}
+@media(max-width:1040px){
+ .feedback-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .feedback-overview{gap:28px}
+ .feedback-guide,.feedback-private,.feedback-invite{align-items:flex-start;flex-direction:column;gap:20px}
+}
+@media(max-width:760px){
+ .feedback-overview,.feedback-grid,.feedback-steps{grid-template-columns:1fr}
+ .feedback-overview{gap:24px}
+ .feedback-before,.feedback-card,.feedback-guide,.feedback-private,.feedback-invite{padding:24px}
+ .feedback-copy h2,.feedback-options h2,.feedback-how h2{font-size:1.625rem}
+ .feedback-options{padding-block:48px}
+ .feedback-steps{gap:24px}
+ .feedback-guide .button,.feedback-private .button,.feedback-invite .button{width:100%}
+ .feedback-invite{margin-bottom:32px}
+}

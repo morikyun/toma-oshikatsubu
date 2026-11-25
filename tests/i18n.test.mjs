@@ -51,7 +51,7 @@ test('language routes preserve anchors and leave assets, APIs and external desti
 });
 
 test('every translated page has a self canonical, reciprocal language links and localized internal navigation',async()=>{
-  for(const file of ['index.html','start/index.html','live/index.html','words/index.html','videos/index.html','schedule/index.html','club/index.html','tomabox/index.html','about/index.html','privacy/index.html','404.html']){
+  for(const file of ['index.html','start/index.html','live/index.html','words/index.html','videos/index.html','schedule/index.html','club/index.html','tomabox/index.html','about/index.html','feedback/index.html','privacy/index.html','404.html']){
     const path='/'+file.replace(/index\.html$/,'');
     for(const {code:lang,prefix} of locales){
       const html=await fs.readFile(new URL('../dist/'+(prefix?prefix.slice(1)+'/':'')+file,import.meta.url),'utf8');
