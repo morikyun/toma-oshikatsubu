@@ -1,0 +1,62 @@
+name: 新しいページを作ってほしい
+description: まだサイトにないページの提案。アイデアの段階でも大丈夫です
+title: '[新しいページ] '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        「こんなページがあると嬉しい」というアイデアを教えてください。ITの知識や、完成した文章は必要ありません。
+        上の「タイトル」には、**「[新しいページ] はじめてライブに参加した人の声を紹介したい」**のように、お願いしたいことを短く書いてください。
+        まだ決まっていないところは、「相談したい」と書いても大丈夫です。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。
+  - type: input
+    id: page-name
+    attributes:
+      label: どんなページを作りたいですか？
+      description: ページの名前やテーマを教えてください。仮の名前で大丈夫です。
+      placeholder: 例：はじめてライブに参加した人の声
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: どんな人に、何を伝えたいですか？
+      placeholder: 例：初参加を迷っている人に、参加した人の感想を届けて、安心して来てもらいたいです。
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: ページに載せたい内容を教えてください
+      description: 箇条書きや思いついたことだけでも大丈夫です。詳しい内容は、あとから相談できます。
+      placeholder: |
+        例：
+        ・初参加前に気になっていたこと
+        ・実際に行ってみた感想
+        ・これから参加する人へのひとこと
+    validations:
+      required: true
+  - type: dropdown
+    id: entry-point
+    attributes:
+      label: どこから新しいページを開けるとよさそうですか？（任意）
+      options:
+        - まだ決まっていない・相談したい
+        - トップページから
+        - はじめての方へから
+        - ライブの楽しみ方から
+        - 推し活部についてから
+        - その他（下の補足欄に書きます）
+      default: 0
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考のURL・画像・補足（任意）
+      description: 参考にしたいページや、掲載してよい文章・画像があれば添えてください。見た目の希望もここに書けます。
+      placeholder: 参考サイトのURL、載せたい文章、希望する雰囲気など
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営が内容を確認し、ページの内容や作成について相談します。
