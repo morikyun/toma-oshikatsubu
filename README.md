@@ -12,14 +12,14 @@ GitHubでは、このような依頼を **Issue（イシュー）** と呼びま
 
 ### まず、お願いしたいことを選びます
 
-フォームを選ぶと、依頼の種類を表す**ラベル（色付きの付箋）が自動で付きます。** 迷ったときは「質問・相談したい」を選んでください。
+フォームを選ぶと、**Type（種類）とラベルが自動で付きます。** Typeは依頼を大きく分ける種類で、Task（作業・対応）・Bug（不具合）・Feature（追加・改善）の3種類です。ラベルは詳しい内容を示す「色付きの付箋」です。迷ったときは「質問・相談したい」を選んでください。
 
-- **[文章・名前・リンクを直したい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=01-change.yml)**：紹介文や名前の修正、リンク先の変更、情報の追加など。ラベルは「説明文・案内」。
-- **[新しいページを作ってほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=02-new-page.yml)**：まだサイトにないページの提案。ラベルは「改善・追加」。
-- **[表示がおかしい・リンクが開かない](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=03-problem.yml)**：文字が重なる、ボタンが反応しないなど。ラベルは「不具合」。
-- **[見やすく・使いやすくしてほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=04-usability.yml)**：文字の大きさ、色、配置、操作のしやすさなど。ラベルは「見やすさ・使いやすさ」「改善・追加」。
-- **[機能を追加・改善してほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=05-feature.yml)**：検索や絞り込み、予定の保存など、できることを増やす提案。ラベルは「改善・追加」。
-- **[質問・相談したい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=06-question.yml)**：サイトの内容や使い方の質問、まだまとまっていない相談。ラベルは「質問・相談」。
+- **[文章・名前・リンクを直したい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=01-change.yml)**：紹介文や名前の修正、リンク先の変更、情報の追加など。Typeは「Task」、ラベルは「説明文・案内」。
+- **[新しいページを作ってほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=02-new-page.yml)**：まだサイトにないページの提案。Typeは「Feature」、ラベルは「改善・追加」。
+- **[表示がおかしい・リンクが開かない](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=03-problem.yml)**：文字が重なる、ボタンが反応しないなど。Typeは「Bug」、ラベルは「不具合」。
+- **[見やすく・使いやすくしてほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=04-usability.yml)**：文字の大きさ、色、配置、操作のしやすさなど。Typeは「Feature」、ラベルは「見やすさ・使いやすさ」「改善・追加」。
+- **[機能を追加・改善してほしい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=05-feature.yml)**：検索や絞り込み、予定の保存など、できることを増やす提案。Typeは「Feature」、ラベルは「改善・追加」。
+- **[質問・相談したい](https://github.com/morikyun/toma-oshikatsubu/issues/new?template=06-question.yml)**：サイトの内容や使い方の質問、まだまとまっていない相談。Typeは「Task」、ラベルは「質問・相談」。
 
 ### 登録のしかた
 
@@ -79,6 +79,7 @@ GitHubの上部メニューからは **Issues → New issue** でも同じフォ
 
 - **README（リードミー）**：今読んでいる、この案内文です。お店の入口にある「ご利用案内」のように、この場所の目的や使い方を紹介します。
 - **リポジトリ**：一つのサイトや活動に関する資料・記録をまとめる場所です。GitHubが資料室なら、推し活部専用の棚がこのリポジトリです。
+- **Type（タイプ／種類）**：依頼を大きく分ける「書類の分類箱」です。Taskは作業や相談への対応、Bugは不具合、Featureは追加や改善を表します。このサイトでは、選んだフォームに合う種類が一つ、自動で付きます。
 - **ラベル**：依頼を分類する「色付きの付箋」です。このサイトでは、選んだフォームに応じて「不具合」「質問・相談」などの目印が自動で付きます。運営が内容を確認し、あとから調整することもあります。
 - **コメント**：依頼や変更案のページに書き足すメッセージです。連絡帳の返事のように、質問・補足・訂正をやり取りできます。
 - **マージ（Merge）**：確認した変更案を正式な内容に取り込むことです。修正した原稿にOKを出して、正式版に差し替えるイメージです。このサイトでは運営者が行います。
