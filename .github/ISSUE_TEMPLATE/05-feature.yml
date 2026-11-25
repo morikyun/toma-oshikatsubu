@@ -1,0 +1,44 @@
+name: 機能を追加・改善してほしい
+description: 検索、絞り込み、予定の保存など、サイトでできることを増やす
+title: '[機能の改善・追加] '
+labels: ['改善・追加']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        「こんなことができたら便利」という希望を教えてください。作り方を考える必要はありません。
+        このフォームでは、**「改善・追加」**のラベルが自動で付きます。
+        上の「タイトル」には、**「[機能の改善・追加] 気になるライブの予定をカレンダーに保存したい」**のように短く書いてください。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。
+  - type: input
+    id: page
+    attributes:
+      label: どのページで使いたいですか？
+      description: ページ名かURL（アドレス）を書いてください。「サイト全体」「まだ決まっていない」でも大丈夫です。
+      placeholder: 例：これからの予定
+    validations:
+      required: true
+  - type: textarea
+    id: desired-feature
+    attributes:
+      label: どんなことができるようになると嬉しいですか？
+      description: 何をすると、どうなるとよいか、いつもの言葉で教えてください。
+      placeholder: 例：行きたいライブのボタンを押すと、自分のカレンダーに日時と会場を保存できると嬉しいです。
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: いま困っていること・便利になる場面（任意）
+      placeholder: 例：いまは会場と日時を手で書き写しているので、予定を間違えずに保存したいです。
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考のURL・画像・補足（任意）
+      description: 似た機能があるサイトなど、参考になるものがあれば教えてください。画像もこの欄に貼り付けられます。
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営が内容を確認し、対応方法を相談します。

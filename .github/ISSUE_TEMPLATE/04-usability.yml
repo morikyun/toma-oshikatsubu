@@ -1,0 +1,59 @@
+name: 見やすく・使いやすくしてほしい
+description: 文字の大きさ、色、配置、操作のしやすさなどを改善する
+title: '[見やすさ・使いやすさ] '
+labels: ['見やすさ・使いやすさ', '改善・追加']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        「文字を大きくしてほしい」「目当ての情報を見つけやすくしたい」など、感じたことを教えてください。
+        このフォームでは、**「見やすさ・使いやすさ」「改善・追加」**のラベルが自動で付きます。
+        上の「タイトル」には、**「[見やすさ・使いやすさ] スマホの文字をもう少し大きくしてほしい」**のように短く書いてください。
+
+        この内容はインターネット上に公開されます。電話番号・住所・パスワードなどは書かないでください。画像も、個人情報が写っていないものをお願いします。
+  - type: dropdown
+    id: page
+    attributes:
+      label: どのページを変えたいですか？
+      options:
+        - トップページ
+        - はじめての方へ
+        - ライブの楽しみ方
+        - ことばの案内帳
+        - ファンのYouTube
+        - これからの予定
+        - 推し活部について
+        - 公式ファンクラブ TOMA BOX
+        - このサイトについて
+        - プライバシーポリシー
+        - 複数のページ・サイト全体
+        - その他・どのページか分からない
+    validations:
+      required: true
+  - type: textarea
+    id: current-part
+    attributes:
+      label: どの部分が見づらい・使いづらいですか？
+      description: 見出しや人の名前など、場所が分かる情報と、困っていることを教えてください。
+      placeholder: 例：スマホで見ると、ファンのYouTubeの紹介文が小さくて読みづらいです。
+    validations:
+      required: true
+  - type: textarea
+    id: desired-change
+    attributes:
+      label: どう変わると嬉しいですか？
+      description: 希望だけでも大丈夫です。方法が分からなければ「相談したい」と書いてください。
+      placeholder: 例：紹介文の文字を少し大きくして、行の間も広げてほしいです。
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: ページのURL・画面の画像・補足（任意）
+      description: URLは画面上部に表示されるアドレスです。画像はこの欄に貼り付けられます。使っていた端末やページの言語も、分かれば教えてください。
+      placeholder: 例：iPhoneで、日本語のページを見ています。
+  - type: markdown
+    attributes:
+      value: |
+        入力できたら、画面下の **「Create（作成）」または「Submit new issue」** を押してください。
+        登録後、運営が内容を確認します。必要があれば、コメント欄でお聞きします。
