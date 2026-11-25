@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {fetchBlogUpdates} from '../src/blog-service.mjs';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const read=async name=>JSON.parse(await fs.readFile(path.join(root,'content',name+'.json'),'utf8'));
+const [sources,old]=await Promise.all(['blogs','blog-snapshot'].map(read));
+const result=await fetchBlogUpdates(sources,old);
+await fs.writeFile(path.join(root,'content/blog-snapshot.json'),JSON.stringify(result,null,2)+'\n');
+console.log(`Blog snapshot: ${result.items.filter(item=>item.status!=='unavailable').length}/${sources.length} RSS feeds refreshed.`);

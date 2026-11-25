@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-18T10:20:04.685Z",
+  "sourceUrl": "https://source-toma.earth/event/",
+  "items": [
+    {
+      "id": "live-2026-11-21-acoustic",
+      "date": "2026-11-21",
+      "title": "TOMA ACOUSTIC LIVE 2026",
+      "prefecture": "東京",
+      "venue": "銀座タクト"
+    },
+    {
+      "id": "live-2026-12-12-kamigoto",
+      "date": "2026-12-12",
+      "title": "神言 -kamigoto-",
+      "prefecture": "東京",
+      "venue": "銀座TACT"
+    },
+    {
+      "id": "live-2026-12-22-whiteburn",
+      "date": "2026-12-22",
+      "title": "TOMA LIVE 2026 WHITEBURN 5",
+      "prefecture": "東京",
+      "venue": "神田明神ホール"
+    },
+    {
+      "id": "live-2027-01-11-%E3%82%AB%E3%83%9F%E3%83%A0%E3%82%B9%E3%83%92%E5%85%AB%E5%8D%83%E4%BB%A3%E3%82%80%E3%81%99%E3%81%B3",
+      "date": "2027-01-11",
+      "title": "カミムスヒ「八千代むすび」",
+      "prefecture": "沖縄",
+      "venue": "くくる糸満/大ホール"
+    },
+    {
+      "id": "live-2027-02-02-whiteburn",
+      "date": "2027-02-02",
+      "title": "TOMA LIVE 2026「WHITEBURN」",
+      "prefecture": "大阪",
+      "venue": "Takara Osaka"
+    },
+    {
+      "id": "live-2027-02-12-acoustic",
+      "date": "2027-02-12",
+      "title": "TOMA ACOUSTIC LIVE 2026",
+      "prefecture": "東京",
+      "venue": "後日発表"
+    }
+  ],
+  "feature": {
+    "id": "preheso-20261222",
+    "date": "2026-12-22",
+    "title": "ライブの前に、みんなでプレへそ。",
+    "relatedLive": "WHITEBURN 5 in 神田明神",
+    "description": "WHITEBURN 5 in 神田明神に向けて、ファンが集まるライブ前のレクチャー。へそばん。や振り付けをいっしょに楽しみながら、本番に向けて準備しませんか。初めての方も、いつもの皆さんもどうぞ。",
+    "time": "14:00〜15:50（予定）",
+    "reception": "13:30受付",
+    "venue": "アカデミー文京 レクリエーションホール",
+    "venueNote": "文京シビックホール地下／後楽園駅・春日駅直結",
+    "fee": "500円（当日受付でお支払い）",
+    "participation": "現地参加のみ・オンラインなし",
+    "organizer": "プレへそ実行委員会",
+    "sourceUrl": "https://ameblo.jp/taka-qoo-lovely-21/entry-12983046143.html"
+  },
+  "mode": "snapshot",
+  "stale": true
+}

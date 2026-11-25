@@ -1,0 +1,29 @@
+{
+  "name": "TOMA推し活部",
+  "description": "總水とおまさんの音楽、ライブの楽しみ方、ことばの案内帳、ファンのYouTube、推し活部への入部方法。初めての方のための、非公式ファンコミュニティの案内サイトです。",
+  "updated": "2026-11-25",
+  "baseUrl": "https://toma-oshikatsubu.pages.dev",
+  "membership": {
+    "url": "https://ws.formzu.net/sfgen/S488493374/",
+    "condition": "總水とおまさんのライブに参加したことがある方",
+    "fee": ""
+  },
+  "links": {
+    "youtube": "https://www.youtube.com/@TomaSource",
+    "blog": "https://ameblo.jp/tomasource/",
+    "staff": "https://ameblo.jp/tomastaff/",
+    "tickets": "https://pienipisara2.thebase.in/",
+    "fanclub": "https://tomasource.hp.peraichi.com/tomabox",
+    "music": "https://www.tunecore.co.jp/artists/tomasource?lang=ja",
+    "streams": "https://www.youtube.com/@TomaSource/streams",
+    "otoMikuji": "https://toma-oto-mikuji.pages.dev/",
+    "events": "https://source-toma.earth/event/"
+  },
+  "socialImage": {
+    "path": "/assets/ogp-toma-oshikatsu-v1.jpg",
+    "width": 1200,
+    "height": 630,
+    "type": "image/jpeg",
+    "alt": "TOMA推し活部。「気になる」から、はじめよう。レコードのイラストを添えた、總水とおまさんを応援する非公式ファンコミュニティの案内。"
+  }
+}

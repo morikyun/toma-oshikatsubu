@@ -1,0 +1,1215 @@
+[
+  {
+    "id": "toma",
+    "name": "總水とおま",
+    "reading": "そうす とおま",
+    "category": "人・活動",
+    "summary": "歌手・作曲家。音楽や言葉を通じて、さまざまな世界を表現しています。",
+    "detail": "英語表記は Toma Source。歌や作曲を軸に、異なる編成や世界観を持つ音楽プロジェクトで活動しています。イシュタール、Shinshoku、カミムスヒ、エメラルドタブレットなどは、それぞれ作品や出演者の組み合わせが異なります。\n\nご本人の歌を聴く入口ならライブのダイジェスト、人柄や考え方に触れる入口ならトークや対談が向いています。最初に全部の名前を覚える必要はありません。",
+    "source": "https://source-toma.earth/profile",
+    "context": "「とおまさん」「TOMA」「Toma Source」は、同じ方を指す表記として使われます。",
+    "related": [
+      "ishtar",
+      "tomoko-hour",
+      "source"
+    ],
+    "aliases": [
+      "とおまさん",
+      "Toma Source",
+      "TOMA",
+      "そうすとおま"
+    ],
+    "sourceLabel": "公式プロフィールを見る"
+  },
+  {
+    "id": "ishtar",
+    "name": "超次元トリッパー☆イシュタール",
+    "reading": "ちょうじげんトリッパー イシュタール",
+    "category": "音楽",
+    "summary": "宇宙の旅をイメージした世界観を持つ、音楽プロジェクト。",
+    "detail": "宇宙船「イシュタール号」で旅をする、という物語が音楽や公演の言葉づかいにつながっています。観客も「クルー」としてその旅に加わる、参加型の世界観が特徴です。\n\n『誓い』『Connect a New World』『響新共命』などの作品があり、ライブには別のシリーズ名が付くこともあります。作品名・公演名・プロジェクト名を分けて見ると、告知を読みやすくなります。",
+    "source": "https://www.youtube.com/watch?v=wtxo_t21t7w",
+    "context": "ライブの案内に出てくる「出航」「乗船」は、この世界観を表すことばです。",
+    "related": [
+      "ishtar-ship",
+      "chikai",
+      "connect-new-world",
+      "toma-live"
+    ],
+    "aliases": [
+      "イシュタール",
+      "ISHTAR",
+      "超次元トリッパー"
+    ],
+    "sourceLabel": "イシュタールについての対談を見る"
+  },
+  {
+    "id": "shinshoku",
+    "name": "Shinshoku",
+    "reading": "しんしょく",
+    "category": "音楽",
+    "summary": "『逆針』『松明』などの作品がある音楽プロジェクト。",
+    "detail": "總水とおまさんと音楽プロデューサーの鎌田昌郎さんを軸に展開する音楽プロジェクトです。『逆針』『松明』などの作品があり、紹介配信では「神職・真色・新色・新植」など、名前に重ねた意味が語られています。\n\n同じとおまさんの活動でも、イシュタールとは作品の背景や語られるテーマが異なります。まずはプロジェクト名を動画タイトルで確かめ、その回の「楽しみ方」を聞くと入口が見つかります。",
+    "source": "https://www.youtube.com/watch?v=hTV46Vwsy5w",
+    "context": "表記は英語のShinshoku、読みは「しんしょく」です。",
+    "related": [
+      "kamata",
+      "ishtar",
+      "kamigoto"
+    ],
+    "aliases": [
+      "シンショク",
+      "神職",
+      "真色",
+      "新色",
+      "新植"
+    ]
+  },
+  {
+    "id": "kamimusuhi",
+    "name": "カミムスヒ",
+    "reading": "かみむすひ",
+    "category": "音楽",
+    "summary": "總水とおまさんと油川さゆりさんによるソングユニット。",
+    "detail": "總水とおまさんと油川さゆりさんによるソングユニットです。日本各地の土地や古来の情景を題材に、歌や音で表現しています。ライブに加え、神社などでの奉納演奏の紹介もあります。\n\n『あめむすび』などの作品名と、ユニット名の「カミムスヒ」は別の名前です。告知で二つが並んでいても、別々の出演者がいるという意味ではありません。",
+    "source": "https://www.youtube.com/watch?v=yq-wFPLURY0",
+    "context": "共演者として「さゆりさん」の名前が出てきたら、油川さゆりさんの項目もどうぞ。",
+    "related": [
+      "aburakawa",
+      "amemusubi",
+      "toma"
+    ],
+    "aliases": [
+      "カミムスビ"
+    ],
+    "sourceLabel": "「あめむすび」のダイジェストを聴く"
+  },
+  {
+    "id": "emerald",
+    "name": "エメラルドタブレット",
+    "reading": "えめらるどたぶれっと",
+    "category": "音楽",
+    "summary": "とおまさんの声や語りと、大井映理子さんのクリスタルボウルによるプロジェクト。",
+    "detail": "總水とおまさんの声や語りと、大井映理子さんのクリスタルボウルによる音楽プロジェクトです。同名の書物の世界観を題材に、音と言葉の表現へと広げています。\n\n『創造の探求』『生命の花』などの作品があります。配信中の「エメラルドタブレット」が、書物を指しているのか、作品・公演を指しているのかで、話の受け取り方が変わります。",
+    "source": "https://www.youtube.com/watch?v=us34KGdp5lg",
+    "context": "告知の「EMERALD TABLET LIVE」は、このプロジェクトのライブ案内です。",
+    "related": [
+      "oi-eriko",
+      "crystal-bowl",
+      "kamigoto",
+      "magnetic-pole-program"
+    ],
+    "aliases": [
+      "EMERALD TABLET",
+      "エメラルド タブレット"
+    ],
+    "sourceLabel": "エメラルドタブレットの対談を見る"
+  },
+  {
+    "id": "magnetic-pole-program",
+    "name": "磁極調整プログラム",
+    "reading": "じきょくちょうせい プログラム",
+    "category": "配信・メディア",
+    "summary": "音楽と朗読のガイドを聴きながら、自分の内側に意識を向ける瞑想ワーク。",
+    "detail": "總水とおまさんと大井映理子さんの「エメラルドタブレット」に関連する、体験型の瞑想プログラムです。内側のエネルギーを整え、生命力や創造性に触れることを目指すプログラムとして紹介されています。\n\n音楽や朗読の案内に合わせ、横になったり、呼吸や身体の感覚に意識を向けたりしながら進みます。「磁極」「スターシステムの起動」「ゼロ界」などは、このプログラムのスピリチュアルな世界観を表す言葉です。\n\n2023年3月に公式YouTubeで公開された、英語・日本語字幕付きの動画から体験できます。まずは音や語りの雰囲気に触れてみてください。",
+    "context": "エメラルドタブレットや瞑想に関する発信で登場します。会員向けの「贅沢瞑想」とのつながりを知る入口にもなります。",
+    "related": [
+      "emerald",
+      "oi-eriko",
+      "zeitaku-meiso"
+    ],
+    "source": "https://www.youtube.com/watch?v=obPN27YZJ8k",
+    "sourceLabel": "磁極調整プログラムをYouTubeで見る",
+    "aliases": [
+      "磁極調整",
+      "じきょくちょうせい",
+      "Magnetic pole adjustment program"
+    ]},
+  {
+    "id": "toma-live",
+    "name": "TOMA LIVE",
+    "reading": "とおま ライブ",
+    "category": "ライブ・イベント",
+    "summary": "年ごとのテーマに沿って、音楽や物語を楽しむ、とおまさんのライブシリーズ。",
+    "detail": "總水とおまさんが展開するライブシリーズです。2025年には「響新共命」、2026年には「WHITEBURN」というテーマで公演が行われています。\n\n告知では「TOMA LIVE 2026『WHITEBURN』5」のように、年・シリーズ名・公演番号を合わせて紹介されます。TOMA LIVEとWHITEBURNの名前を結びつけると、チケットや動画を探しやすくなります。\n\n現地の観覧エリアやオンライン配信、燈詠祭りなど、参加の方法は公演ごとの公式案内を確認しましょう。エリアの設定・配置・特典も会場によって異なります。",
+    "context": "公演の告知、チケットの販売ページ、ライブのDigest動画などのタイトルに登場します。",
+    "related": [
+      "whiteburn",
+      "kyoshinkyomei",
+      "ishtar",
+      "kiritsu-area",
+      "tachimi-area",
+      "zagaku-area",
+      "vip-area",
+      "toei"
+    ],
+    "source": "https://pienipisara2.thebase.in/categories/2586931",
+    "sourceLabel": "公式ショップのライブ一覧を見る",
+    "aliases": [
+      "TOMALIVE",
+      "Toma Live",
+      "とおまライブ",
+      "トーマライブ"
+    ]},
+  {
+    "id": "acoustic",
+    "name": "TOMA ACOUSTIC LIVE",
+    "reading": "とおま アコースティック ライブ",
+    "category": "ライブ・イベント",
+    "summary": "声と楽器の響きに触れる、アコースティック編成のライブ。",
+    "detail": "声や楽器の細かな表情を楽しめる、アコースティック編成のライブです。公開されている公演案内には、總水とおまさん、鎌田昌郎さん、古賀弘史さんによる編成もあります。\n\n「アコースティック」は、無音に近い静かな公演や、音響機器を一切使わない公演を意味するものではありません。まずダイジェストで響きや雰囲気を聴き、当日の編成・席種は各公演の案内で確認しましょう。",
+    "source": "https://pienipisara2.thebase.in/categories/5908823",
+    "context": "英語のACOUSTIC、カタカナのアコースティックは同じことばです。",
+    "related": [
+      "koga",
+      "kamata"
+    ],
+    "aliases": [
+      "TOMA Acoustic",
+      "アコースティック",
+      "アコースティックライブ"
+    ],
+    "sourceLabel": "アコースティックライブのチケットを見る"
+  },
+  {
+    "id": "impact",
+    "name": "TOMA IMPACT",
+    "reading": "とおま インパクト",
+    "category": "ライブ・イベント",
+    "summary": "過去に各地で開催された、トークを中心としたイベント。",
+    "detail": "總水とおまさんが過去に各地で開催した、トークを中心としたイベントです。その土地や参加者にまつわる話など、音楽ライブとは違う形でとおまさんの発信に触れる企画でした。\n\n過去の配信やイベント案内に出てくる名前として紹介しています。現在の公演・企画は「これからの予定」や公式の案内をご確認ください。",
+    "source": "https://pienipisara2.thebase.in/categories/4341448",
+    "context": "「インパクト」と略されることもあります。",
+    "related": [
+      "tenmarche",
+      "toma-talk"
+    ],
+    "aliases": [
+      "インパクト",
+      "とおまインパクト"
+    ],
+    "sourceLabel": "TOMA IMPACTの掲載ページを見る"
+  },
+  {
+    "id": "tomabox",
+    "name": "TOMA BOX",
+    "reading": "とおま ボックス",
+    "category": "コミュニティ",
+    "summary": "總水とおまさんのオフィシャルファンクラブ。",
+    "detail": "總水とおまさんのオフィシャルファンクラブです。チケットの先行販売や会員向け企画などが、公式の案内を通じて紹介されています。\n\nこのサイトの「推し活部」はファンが運営する非公式コミュニティで、TOMA BOXとは運営・入会方法が異なります。会員プランや特典、費用は変わることがあるため、入会時点の公式案内を確認してください。",
+    "source": "https://tomasource.hp.peraichi.com/tomabox",
+    "context": "「会員先行」「会員限定」「ギルド会」という案内が出たときの確認先です。",
+    "related": [
+      "guild",
+      "club",
+      "otomo",
+      "mirai-kenshu",
+      "zeitaku-meiso",
+      "three-minutes-toma",
+      "tea-party"
+    ],
+    "aliases": [
+      "TOMABOX",
+      "公式ファンクラブ",
+      "ファンクラブ"
+    ]
+  },
+  {
+    "id": "club",
+    "name": "推し活部",
+    "reading": "おしかつぶ",
+    "category": "コミュニティ",
+    "summary": "總水とおまさんを応援する、非公式のファンコミュニティ。",
+    "detail": "總水とおまさんを応援する、非公式のファンコミュニティです。ファンによる発信や紹介などを通して、好きな気持ちを共有しています。\n\n入部の対象は、とおまさんのライブに参加したことがある方です。会場での参加だけでなく、配信での参加も含みます。申し込みは、このサイトの入部案内から専用フォームへ進めます。",
+    "source": "https://ws.formzu.net/sfgen/S488493374/",
+    "note": "参加条件はサイト運営者からの案内（2026年11月17日）。",
+    "context": "ファンのYouTubeカードにある部名・役職は、推し活部での役職です。",
+    "related": [
+      "tomabox",
+      "tomania"
+    ],
+    "aliases": [
+      "推し活",
+      "入部",
+      "非公式ファンコミュニティ"
+    ]
+  },
+  {
+    "id": "guild",
+    "name": "ギルド会",
+    "reading": "ギルドかい",
+    "category": "コミュニティ",
+    "summary": "公式ファンクラブ TOMA BOX のファンミーティング。",
+    "detail": "公式ファンクラブTOMA BOXで案内されているファンミーティングの名称です。ファンクラブそのものの名前はTOMA BOXで、その企画の一つがギルド会です。\n\n参加対象や開催方法は回ごとの案内を確認してください。「ギルド」という言葉だけを見て、別のファンクラブに入会する必要があると考えなくて大丈夫です。",
+    "source": "https://tomasource.hp.peraichi.com/tomabox",
+    "note": "手元の用語メモにある「ファンクラブの名称」は、公式案内に合わせて「ファンミーティング」に整理。",
+    "context": "TOMA BOXの会員向け案内で見かける名前です。",
+    "related": [
+      "tomabox",
+      "club"
+    ],
+    "aliases": [
+      "ギルド",
+      "ファンミーティング"
+    ]
+  },
+  {
+    "id": "tomania",
+    "name": "TOMANIA LIVE",
+    "reading": "トマニア ライブ",
+    "category": "コミュニティ",
+    "summary": "非公式のTOMA推し活部によるYouTubeチャンネル。",
+    "detail": "非公式のTOMA推し活部によるYouTubeチャンネルとして、ご本人のブログでも紹介されています。ファンの視点で楽しみ方や魅力に触れられる発信の一つです。\n\n「LIVE」という文字がありますが、ここではチャンネル名を指します。ご本人の音楽公演「TOMA LIVE」や、公式のトークチャンネル「TOMA☆トーク」とは区別して探すと分かりやすくなります。",
+    "source": "https://www.youtube.com/@TOMANIALIVE",
+    "context": "「トマニアライブ」と呼ばれるファンの発信です。",
+    "related": [
+      "club",
+      "toma-talk"
+    ],
+    "aliases": [
+      "トマニア",
+      "TOMANIA",
+      "トマニアライブ"
+    ],
+    "sourceLabel": "TOMANIA LIVEのYouTubeを見る"
+  },
+  {
+    "id": "whiteburn",
+    "name": "WHITEBURN",
+    "reading": "ホワイトバーン",
+    "category": "音楽",
+    "summary": "2026年の TOMA LIVE で使われているシリーズ名。",
+    "detail": "2026年のTOMA LIVEで使われているシリーズ名です。超次元トリッパー☆イシュタールの告知やダイジェスト、アフタートークに登場します。\n\nタイトルに①・②・③などの番号が付いているときは、それぞれの公演を区別しています。同じシリーズでも、開催地や出演者、演奏内容は回ごとに確認できます。",
+    "source": "https://pienipisara2.thebase.in/categories/5703077",
+    "context": "「WHITEBURN3の楽しみ方」と「WHITEBURN③ Digest」は、同じ公演に関する別形式の動画として探せます。",
+    "related": [
+      "ishtar",
+      "fuka",
+      "mimico",
+      "kiritsu-area",
+      "tachimi-area",
+      "zagaku-area",
+      "vip-area",
+      "toma-live"
+    ],
+    "aliases": [
+      "ホワイトバーン",
+      "WHITE BURN"
+    ],
+    "sourceLabel": "WHITEBURNのチケット一覧を見る"
+  },
+  {
+    "id": "kyoshinkyomei",
+    "name": "響新共命",
+    "reading": "きょうしんきょうめい",
+    "category": "音楽",
+    "summary": "超次元トリッパー☆イシュタールの作品名で、ライブシリーズにも使われる言葉。",
+    "detail": "超次元トリッパー☆イシュタールの作品名で、TOMA LIVEのシリーズ名にも使われています。読みは「きょうしんきょうめい」です。\n\n音楽配信サイトでは作品、YouTubeの公演ダイジェストではライブを指す場合があります。アルバム紹介か公演案内かを、タイトルの前後のことばで読み分けるのが手がかりです。",
+    "source": "https://linkco.re/pSdF1XPm?lang=ja",
+    "context": "動画タイトルに付く432Hz・528Hzの表記も、音や作品についての説明につながります。",
+    "related": [
+      "ishtar",
+      "hz432",
+      "hz528",
+      "toma-live"
+    ],
+    "aliases": [
+      "きょうしんきょうめい",
+      "共振共鳴"
+    ]
+  },
+  {
+    "id": "meditation-rock",
+    "name": "メディテーションロック",
+    "reading": "めでぃてーしょん ロック",
+    "category": "音楽",
+    "summary": "とおまさんが自身の音楽を表すために提唱している言葉。",
+    "detail": "とおまさんが自身の音楽を紹介するために提唱している呼び方です。ロックの音楽を聴きながら、瞑想するような体験が生まれることを表すコンセプトとして説明されています。\n\n参加者全員に同じ感覚や反応が起きるという意味ではありません。名称を知ったうえで、声・楽器・リズムのどこに心が向くか、自分のペースで聴いてみてください。",
+    "source": "https://www.tunecore.co.jp/artists/tomasource?lang=ja",
+    "context": "プロフィールやインタビューで、音楽性を説明する場面に登場します。",
+    "related": [
+      "toma",
+      "ishtar",
+      "frequency"
+    ],
+    "aliases": [
+      "瞑想",
+      "メディテーション"
+    ]
+  },
+  {
+    "id": "eureka",
+    "name": "Eureka〈エウレカ〉",
+    "reading": "エウレカ",
+    "category": "ライブ・イベント",
+    "summary": "總水とおまさんと優花さんによるコラボレーションライブ。",
+    "detail": "公式の公演紹介では、とおまさんと優花さんによる音楽ライブとして案内されています。「Eureka」には発見という意味があります。\n\n歌や言葉、出演者同士のやりとりが重なり、回ごとに表現が広がっていく企画です。初めてならダイジェストや対談で雰囲気を知ると、告知の名前がぐっと身近になります。",
+    "context": "「エウレカ」と書かれていたら、まず共演者の優花さんとセットで覚えると便利です。",
+    "related": [
+      "acoustic",
+      "yuka"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12851876715.html",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "Eureka",
+      "エウレカ"
+    ]},
+  {
+    "id": "kamigoto",
+    "name": "神言 -kamigoto-",
+    "reading": "かみごと",
+    "category": "音楽",
+    "summary": "歌・言葉・舞・クリスタルボウルを組み合わせた表現のプロジェクト。",
+    "detail": "2026年に始まったプロジェクトで、總水とおまさん、大井映理子さん、Yukakoさんが出演しています。古事記などの言葉を題材に、歌・語り・舞・音を重ねていく場として紹介されています。\n\nタイトルは「神」に「言」と書いて「かみごと」。作品の世界観を知りたいときは、楽曲紹介や「楽しみ方」の配信から触れてみてください。",
+    "context": "一般名詞の「神事」と、固有のプロジェクト名「神言 -kamigoto-」を区別して探すと見つけやすくなります。",
+    "related": [
+      "oi-eriko",
+      "yukako",
+      "emerald",
+      "ueki-toshinori"
+    ],
+    "source": "https://tomasource.hp.peraichi.com/kamigoto",
+    "sourceLabel": "神言 -kamigoto- の公式サイトを見る",
+    "aliases": [
+      "Kamigoto",
+      "カミゴト",
+      "神言"
+    ]},
+  {
+    "id": "ishtar-ship",
+    "name": "イシュタール号",
+    "reading": "イシュタールごう",
+    "category": "世界観",
+    "summary": "イシュタールの物語に登場する、多次元宇宙を旅する船の名前。",
+    "detail": "超次元トリッパー☆イシュタールの世界観では、音楽やライブが宇宙を旅する船の物語と結びついています。「イシュタール号」は、その船の呼び名です。\n\n観客も乗組員の「クルー」として旅に加わる設定があり、告知には「出航」「乗船」といったことばが使われます。音楽を一緒に楽しむための物語として読むと、言葉がつながります。",
+    "context": "ライブのお知らせやアフタートークで、宇宙船の話が出てきたときに。",
+    "related": [
+      "ishtar"
+    ],
+    "source": "https://www.youtube.com/watch?v=-par0mZRjJo",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "宇宙船"
+    ]},
+  {
+    "id": "chikai",
+    "name": "誓い",
+    "reading": "ちかい",
+    "category": "音楽",
+    "summary": "超次元トリッパー☆イシュタールの初期の作品名。",
+    "detail": "イシュタールの基本となる、自分らしく生きるというテーマに触れられる作品です。曲名やCDの紹介タイトルとして登場します。\n\n初期の作品から聴くと、その後の『Connect a New World』『響新共命』と、表現や物語がどうつながっているかを楽しめます。まずCDダイジェストで気になる音を見つけてみてください。",
+    "context": "公演名だけでなく、曲名・作品名として見かけることばです。",
+    "related": [
+      "ishtar",
+      "connect-new-world",
+      "kyoshinkyomei"
+    ],
+    "source": "https://www.youtube.com/watch?v=y_VxWutXeuY",
+    "sourceLabel": "公式のCDダイジェストを見る",
+    "aliases": []},
+  {
+    "id": "connect-new-world",
+    "name": "Connect a New World",
+    "reading": "コネクト ア ニュー ワールド",
+    "category": "音楽",
+    "summary": "超次元トリッパー☆イシュタールの2作目のアルバム。",
+    "detail": "2022年に発表されたアルバムで、『凍りの盟約』『蕾』『澪標』『輪廻の根』などの楽曲が収録されています。鎌田昌郎さんも作曲・プロデュースに関わっています。\n\n公演のツアー名にも使われた名前です。アルバムを探しているのか、当時のライブ映像を探しているのかで、動画タイトルの見方を変えてみてください。",
+    "context": "英語のタイトルをそのまま検索すると、作品やダイジェストにたどり着きやすくなります。",
+    "related": [
+      "ishtar",
+      "chikai",
+      "kamata"
+    ],
+    "source": "https://www.youtube.com/watch?v=KJL8EHZ5muQ",
+    "sourceLabel": "公式のアルバム紹介を見る",
+    "aliases": [
+      "Connect a New World Tour"
+    ]},
+  {
+    "id": "spice",
+    "name": "世界にあなたというスパイスを",
+    "reading": "せかいに あなたという スパイスを",
+    "category": "ライブ・イベント",
+    "summary": "2024年のTOMA LIVEで使われたライブシリーズ名。",
+    "detail": "一人ひとりの個性をスパイスに重ねたタイトルです。紹介配信では、個性を認め、表現していくという思いが語られています。\n\n「4粒目」「5粒目」などはシリーズ内の公演を表す呼び方です。過去の映像に出てくる服装や応援の案内は、その公演の内容として読んでください。",
+    "context": "「○粒目」という表記があれば、このシリーズの公演を探す手がかりになります。",
+    "related": [
+      "toei",
+      "whiteburn"
+    ],
+    "source": "https://www.youtube.com/watch?v=GDWELAEG3j8",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "スパイス",
+      "粒目"
+    ]},
+  {
+    "id": "toei",
+    "name": "燈詠祭り",
+    "reading": "とうえいまつり",
+    "category": "ライブ・イベント",
+    "summary": "各地に集まり、TOMA LIVEの配信を一緒に楽しむライブビューイング企画。",
+    "detail": "ライブ本会場とは別の場所で、オンライン配信を見ながら参加する企画です。地域の主催者による会場づくりや企画が案内される回もあります。\n\n本会場での観覧、自宅での配信視聴、燈詠祭りの会場での参加は、それぞれ案内や申し込み先が異なります。参加する回・地域の主催者の情報を確認しましょう。",
+    "context": "公式スタッフの表記は「燈詠（とうえい）祭り」です。",
+    "related": [
+      "spice",
+      "toma-live"
+    ],
+    "source": "https://www.youtube.com/watch?v=7HnUAKZ7_Cc",
+    "sourceLabel": "燈詠祭りの主催者紹介をYouTubeで見る",
+    "aliases": [
+      "燈詠祭",
+      "とうえい",
+      "灯詠祭り"
+    ]},
+  {
+    "id": "tenmarche",
+    "name": "テンマルシェ",
+    "reading": "てんまるしぇ",
+    "category": "ライブ・イベント",
+    "summary": "手作りの作品やセッションなど、出店者の活動に出会えるマルシェ。",
+    "detail": "とおまさんの発信で紹介されるマルシェです。出店者が、それぞれの得意なことや作品、サービスを持ち寄り、紹介動画などでも活動を伝えています。\n\nTOMA IMPACTと同じ日に開催された回もありますが、トークイベントとマルシェは別の企画です。開催地・入場方法・出店内容は、その回の案内で確かめられます。",
+    "context": "ファンのYouTubeで「出店者紹介」を見かけたら、当日のブースを知る入口になります。",
+    "related": [
+      "impact",
+      "tenma",
+      "club"
+    ],
+    "source": "https://tomasource.hp.peraichi.com/tenmarche/",
+    "sourceLabel": "テンマルシェの公式サイトを見る",
+    "aliases": [
+      "テンマ マルシェ",
+      "マルシェ"
+    ]},
+  {
+    "id": "toma-talk",
+    "name": "TOMA☆トーク",
+    "reading": "とおま トーク",
+    "category": "配信・メディア",
+    "summary": "とおまさんのトーク配信を探せる公式YouTubeチャンネル。",
+    "detail": "音楽の公式チャンネル「總水とおま」とは別に、トークを探す入口になるチャンネルです。ライブの背景や日々の話など、言葉からとおまさんに触れたいときに開いてみてください。\n\nこのサイトの「これからの予定」では、両方の公式チャンネルの配信予定を確認する構成にしています。ファンのチャンネル「TOMANIA LIVE」とは運営が異なります。",
+    "context": "表記の☆が省かれ、「TOMAトーク」と書かれることもあります。",
+    "related": [
+      "moon-stream",
+      "tomania",
+      "tomoko-hour"
+    ],
+    "source": "https://www.youtube.com/@toma5271",
+    "sourceLabel": "TOMA☆トークをひらく",
+    "aliases": [
+      "TOMAトーク",
+      "TOMA トーク",
+      "とおまトーク"
+    ]
+  },
+  {
+    "id": "tomoko-hour",
+    "name": "斎名智子アワー",
+    "reading": "さいな ともこ アワー",
+    "category": "配信・メディア",
+    "summary": "とおまさんの人柄や考え方に、対談を通して触れられるYouTube番組。",
+    "detail": "斎名智子さんの番組に、とおまさんがゲスト出演しているシリーズがあります。対話の中で語られる経験や考え方から、音楽とは違う一面を知る入口になります。\n\n番組で初めてとおまさんを知った方はライブ映像へ、音楽から出会った方は対談へと、行き来しながら楽しめます。指定の出演シリーズを、このサイトのトップでも紹介しています。",
+    "context": "番組名と、出演者の「斎名智子さん」を分けて覚えると探しやすくなります。",
+    "related": [
+      "toma",
+      "toma-talk"
+    ],
+    "source": "https://www.youtube.com/watch?v=wtxo_t21t7w&list=PLQJ1jLgQOlbeUHgQf5oDO8ii1Vkz94upN",
+    "sourceLabel": "とおまさんの出演シリーズを見る",
+    "aliases": [
+      "智子アワー",
+      "対談",
+      "鼎談"
+    ]},
+  {
+    "id": "gekkan-toma",
+    "name": "月刊とおま",
+    "reading": "げっかん とおま",
+    "category": "配信・メディア",
+    "summary": "とおまさんを題材に、インタビューや周囲の人の視点をまとめた冊子。",
+    "detail": "音楽作品とは別に、文章や写真からとおまさんに出会える出版企画です。ご本人の発信や販売ページでは、『月刊とおま−4』などの号名で紹介されています。\n\n動画番組名ではなく冊子の名前です。号によって内容や販売状況が異なるため、気になったときは紹介記事や販売ページを確かめてみてください。",
+    "context": "「月刊」の名前だけで、現在も毎月発行されていると判断せず、各号の案内を確認しましょう。",
+    "related": [
+      "toma",
+      "pienipisara",
+      "tomabox",
+      "honda-yukari"
+    ],
+    "source": "https://pienipisara2.thebase.in/categories/4341454",
+    "sourceLabel": "公式ショップの書籍一覧を見る",
+    "aliases": []},
+  {
+    "id": "moon-stream",
+    "name": "新月・満月配信",
+    "reading": "しんげつ・まんげつ はいしん",
+    "category": "配信・メディア",
+    "summary": "新月や満月の時期に行われる、とおまさんのトーク配信。",
+    "detail": "その時々の話題、視聴者のコメント、日常や活動についての話が展開する配信です。タイトルに「双子座新月」「魚座満月」など、日付や星座が付いている回があります。\n\n過去回も、その日の話題を知るアーカイブとして楽しめます。配信中の告知や申し込み期限は収録当時の情報なので、今の予定とは分けて確認してください。",
+    "context": "ライブの楽しみ方を紹介する配信とは、番組のテーマや構成が異なります。",
+    "related": [
+      "toma-talk",
+      "tenma",
+      "iqm"
+    ],
+    "source": "https://www.youtube.com/@TomaSource/streams",
+    "sourceLabel": "YouTubeのライブ配信一覧を見る",
+    "aliases": [
+      "新月配信",
+      "満月配信",
+      "新月",
+      "満月"
+    ]},
+  {
+    "id": "otomo",
+    "name": "おとも de 参る",
+    "reading": "おとも で まいる",
+    "category": "コミュニティ",
+    "summary": "TOMA BOXの対象会員が、友人を公演に招待できる企画として案内された名前。",
+    "detail": "公式スタッフの過去の案内では、対象会員が指定の公演へ友人を招待するキャンペーンとして紹介されています。会員本人と招待される人、それぞれに条件が定められています。\n\nいつでも同じ内容で使える制度と考えず、実施の有無や対象公演を、その時の公式案内で確認してください。似た名前の「おともdeびゅー」も、企画ごとの案内を読むのが確実です。",
+    "context": "過去の配信で招待や紹介の話が出たときに見かけます。",
+    "related": [
+      "tomabox",
+      "pienipisara"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12758222826.html",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "おともde参る",
+      "おともでまいる",
+      "おともdeびゅー"
+    ]},
+  {
+    "id": "source",
+    "name": "Source",
+    "reading": "ソース",
+    "category": "世界観",
+    "summary": "英語名義「Toma Source」に含まれる、源・起点という意味のことば。",
+    "detail": "とおまさんの英語表記や、音楽配信サービスのアーティスト名で目にする語です。名前の「總水」は「そうす」と読みます。\n\nトークでは「源」「みなもと」という表現とともに語られることもあります。英語名義の一部として使われている場面と、作品や考え方の説明に使われる場面を、前後の話から読み分けてみてください。",
+    "context": "検索では「Toma Source」とまとめて入力すると、ご本人の音楽を探しやすくなります。",
+    "related": [
+      "toma",
+      "uchugoto",
+      "meditation-rock"
+    ],
+    "source": "https://www.tunecore.co.jp/artists/tomasource?lang=ja",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "ソース",
+      "源",
+      "みなもと"
+    ]},
+  {
+    "id": "uchugoto",
+    "name": "宇宙ゴト",
+    "reading": "うちゅうごと",
+    "category": "世界観",
+    "summary": "イシュタールなどの、宇宙へ広がる作品世界を紹介するときのことば。",
+    "detail": "イシュタールの宇宙船や旅の物語を説明する文脈で使われます。とおまさんの発信の中で、音楽プロジェクトが持つ方向性を知る手がかりになる呼び方です。\n\n宇宙の出来事についての科学用語ではなく、ここでは作品や表現の世界観として紹介しています。まずイシュタール号、クルー、出航のことばと一緒に読むとつながりが見えてきます。",
+    "context": "プロジェクトの世界観を語るインタビューやトークに出てくることばです。",
+    "related": [
+      "ishtar",
+      "ishtar-ship",
+      "source"
+    ],
+    "source": "https://www.youtube.com/watch?v=-par0mZRjJo",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "宇宙事"
+    ]},
+  {
+    "id": "mahoron",
+    "name": "磨寶論",
+    "reading": "まほうろん",
+    "category": "コミュニティ",
+    "summary": "自分が持つ「寶」を磨き、仲間と論じる場として説明される講座。",
+    "detail": "とおまさんが主宰する講座の名称です。「自分の寶を磨くこと」と「仲間と論じること」が名前に込められている、と説明されています。自分を知り、受け入れ、表現していく学びの場として紹介されています。\n\n音楽ライブやファンクラブとは、目的も申し込み先も異なります。参加条件や募集時期を知りたいときは、その時点の講座案内を確認してください。",
+    "context": "「まほうろん」と聞こえても、表記は「磨寶論」。別表記の「麿寶論」を見かけることもあります。",
+    "related": [
+      "toma",
+      "tenmarche",
+      "moon-stream"
+    ],
+    "source": "https://mahouron.jp/",
+    "sourceLabel": "磨寶論の公式サイトを見る",
+    "aliases": [
+      "まほうろん",
+      "麿寶論",
+      "魔法論"
+    ]},
+  {
+    "id": "frequency",
+    "name": "周波数・Hz",
+    "reading": "しゅうはすう・ヘルツ",
+    "category": "音のこと",
+    "summary": "振動が1秒間に何回繰り返されるかを表す数。単位はHzです。",
+    "detail": "音の説明では、周波数は音の高さに関わる基本的な用語です。たとえば440Hzは、1秒間に440回振動することを表します。音の大きさとは別の性質です。\n\nとおまさんのトークでは、人や場の感じ方を「周波数」と表現する場面もあります。数値を伴う音響の説明なのか、感覚や関係を表す比喩なのかで、意味を読み分けると理解しやすくなります。",
+    "context": "動画のタイトルにある「432Hz」「528Hz」や、声・楽器の話の入口になることばです。",
+    "related": [
+      "hz432",
+      "hz528",
+      "overtones"
+    ],
+    "source": "https://jp.yamaha.com/files/download/other_assets/5/322725/mg206c_ja_om_a0.pdf",
+    "sourceLabel": "ヤマハの音の解説を見る（PDF）",
+    "aliases": [
+      "Hz",
+      "ヘルツ",
+      "振動数"
+    ]},
+  {
+    "id": "hz432",
+    "name": "432Hz",
+    "reading": "よんひゃくさんじゅうに ヘルツ",
+    "category": "音のこと",
+    "summary": "作品や動画で使われる音の表記。『響新共命』の紹介にも登場します。",
+    "detail": "432Hzは、1秒間に432回の振動を表す数値です。音楽のチューニングでは、基準となる音の高さを説明するために使われることがあります。\n\n曲の全ての音が一つの高さで鳴っているという意味ではありません。とおまさんの作品では、音づくりや作品のコンセプトを知る手がかりとして、各作品の説明と合わせて見てみてください。",
+    "context": "公式の『響新共命』アルバムダイジェストの題名にも付いています。",
+    "related": [
+      "frequency",
+      "tuning",
+      "kyoshinkyomei"
+    ],
+    "source": "https://www.youtube.com/watch?v=Jqbdb3MALZw",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "432",
+      "432ヘルツ"
+    ]},
+  {
+    "id": "tuning",
+    "name": "チューニング",
+    "reading": "ちゅーにんぐ",
+    "category": "音のこと",
+    "summary": "楽器の音の高さを、基準に合わせて整えること。",
+    "detail": "複数の楽器で演奏するときは、基準になる音の高さを確かめながら音を合わせます。一般的な説明では「ラ（A）の音を440Hzにする」などの言い方が登場します。\n\n作品の説明に別の数値があるときも、何を基準にしているかを読むことが大切です。数字の違いだけで演奏の良し悪しや聴き手の体験が決まるわけではありません。",
+    "context": "「この作品は432Hz」という紹介を聞いたとき、合わせて知っておきたい基本用語です。",
+    "related": [
+      "frequency",
+      "hz432",
+      "tuning-fork"
+    ],
+    "source": "https://jp.yamaha.com/files/download/other_assets/5/322725/mg206c_ja_om_a0.pdf",
+    "sourceLabel": "ヤマハの音の解説を見る（PDF）",
+    "aliases": [
+      "調律",
+      "調弦",
+      "基準音",
+      "440Hz"
+    ]
+  },
+  {
+    "id": "hz528",
+    "name": "528Hz",
+    "reading": "ごひゃくにじゅうはち ヘルツ",
+    "category": "音のこと",
+    "summary": "TOMA LIVEのダイジェストなど、動画タイトルに付いている音の表記。",
+    "detail": "528Hzは、1秒間に528回の振動を表す数値です。公式チャンネルでは『響新共命』のライブダイジェストなどに、この表記を持つ動画があります。\n\n作品名や公演名そのものではなく、音についての紹介の一部として読めます。どの音や制作意図を指すかは、その動画や作品の説明に沿って確認してください。",
+    "context": "同じ公演シリーズでも、動画ごとの表記を確かめると探しやすくなります。",
+    "related": [
+      "frequency",
+      "hz432",
+      "kyoshinkyomei"
+    ],
+    "source": "https://www.youtube.com/watch?v=Wn4g3jd9D8c",
+    "sourceLabel": "公式の528Hz表記の動画を見る",
+    "aliases": [
+      "528",
+      "528ヘルツ"
+    ]},
+  {
+    "id": "overtones",
+    "name": "倍音",
+    "reading": "ばいおん",
+    "category": "音のこと",
+    "summary": "基になる音に重なって含まれる音の成分。声や楽器の音色に関わります。",
+    "detail": "音の基本となる周波数を基音といい、その整数倍の周波数を持つ成分が倍音です。どの成分がどれくらい含まれるかで、同じ音の高さでも声や楽器の響きが変わります。\n\nとおまさんの声の特徴を語るときにも登場します。声が重なって聞こえる、響きに厚みがある、といった表現とともに、音楽家がどのように説明しているかを聴いてみると理解が深まります。",
+    "context": "「声の秘密」のような、歌声について語る配信で見かけます。",
+    "related": [
+      "frequency",
+      "tuning-fork",
+      "kamata"
+    ],
+    "source": "https://www.yamaha.com/ja/musical_instrument_guide/saxophone/trivia/trivia008.html",
+    "sourceLabel": "ヤマハの「倍音って？」を読む",
+    "aliases": [
+      "基音",
+      "音色",
+      "ハーモニクス"
+    ]},
+  {
+    "id": "crystal-bowl",
+    "name": "クリスタルボウル",
+    "reading": "くりすたるぼうる",
+    "category": "音のこと",
+    "summary": "器の形をした、響きの余韻を楽しむ楽器。大井映理子さんの演奏で登場します。",
+    "detail": "縁をこすったり、たたいたりして音を響かせる楽器です。エメラルドタブレットや神言では、声や言葉と組み合わせて演奏されています。\n\n音が立ち上がるところや、ゆっくり消えていく余韻に耳を向けると、歌との重なりを楽しめます。「クリスタルボール」と聞こえることがありますが、楽器名では器を意味する「ボウル」の表記で探せます。",
+    "context": "エメラルドタブレットの映像で、大井映理子さんの演奏を見ながら知ると分かりやすくなります。",
+    "related": [
+      "oi-eriko",
+      "emerald",
+      "kamigoto"
+    ],
+    "source": "https://www.youtube.com/watch?v=t42PiymVfQY",
+    "sourceLabel": "声とクリスタルボウルの作品を見る",
+    "aliases": [
+      "クリスタルボール",
+      "crystal bowl"
+    ]},
+  {
+    "id": "tuning-fork",
+    "name": "音叉",
+    "reading": "おんさ",
+    "category": "音のこと",
+    "summary": "たたくと決まった高さの音が響く、U字型の道具。",
+    "detail": "楽器の音の高さを確かめるときなどに使われます。余分な音の成分が少ない音を出すため、音や周波数の仕組みを説明する場面にも登場します。\n\n配信では、音叉の共鳴を、人と人の関係や自分の状態を考えるたとえに使うことがあります。実際の道具の説明と、たとえ話としての意味を分けて聞くと、話の流れを追いやすくなります。",
+    "context": "「同じ音が響き合う」という話を聞いたときの手がかりです。",
+    "related": [
+      "frequency",
+      "tuning",
+      "overtones"
+    ],
+    "source": "https://www.yamaha.com/ja/musical_instrument_guide/saxophone/trivia/trivia008.html",
+    "sourceLabel": "音叉と倍音について読む",
+    "aliases": [
+      "共鳴",
+      "チューニングフォーク"
+    ]},
+  {
+    "id": "koga",
+    "name": "古賀弘史",
+    "reading": "こが ひろし",
+    "category": "人・活動",
+    "summary": "とおまさんのライブに、ピアノ・キーボードで参加する音楽家。",
+    "detail": "アコースティックライブやEurekaなどの公演で名前を見かける共演者です。公演案内では「Key.」など、担当楽器の略記とともに紹介されています。\n\n声と鍵盤の音がどのように重なっているかを意識してダイジェストを見ると、編成の違いも楽しめます。出演メンバーは各公演の案内で確認してください。",
+    "context": "古賀さん・ピアノ・キーボードという呼び方がつながります。",
+    "related": [
+      "acoustic",
+      "kamata",
+      "eureka"
+    ],
+    "source": "https://www.youtube.com/watch?v=uJjBESX3qoo",
+    "sourceLabel": "古賀弘史さんのインタビューを見る",
+    "aliases": [
+      "古賀さん",
+      "Hiroshi Koga",
+      "キーボード"
+    ]},
+  {
+    "id": "kamata",
+    "name": "鎌田昌郎",
+    "reading": "かまた まさろう",
+    "category": "人・活動",
+    "summary": "Shinshokuやイシュタールの作品に関わる音楽プロデューサー。",
+    "detail": "作曲やプロデュースに加え、ライブでは歌・ギターなどの演奏でも参加しています。Shinshokuやイシュタールの作品紹介、アコースティックライブの出演者欄で見かける名前です。\n\nとおまさんの声の特徴を語る配信にも登場します。制作側の話を聞いてから作品を聴くと、音や編成の工夫に気づく入口になります。",
+    "context": "「まさろうさん」「鎌田さん」と呼ばれる場面があります。",
+    "related": [
+      "shinshoku",
+      "connect-new-world",
+      "koga"
+    ],
+    "source": "https://www.youtube.com/watch?v=5lsQQRtdEso",
+    "sourceLabel": "鎌田昌郎さんのインタビューを見る",
+    "aliases": [
+      "鎌田さん",
+      "まさろう",
+      "Masaroh Kamata"
+    ]},
+  {
+    "id": "aburakawa",
+    "name": "油川さゆり",
+    "reading": "あぶらかわ さゆり",
+    "category": "人・活動",
+    "summary": "總水とおまさんと、カミムスヒとして活動している方。",
+    "detail": "カミムスヒは、總水とおまさんと油川さゆりさんによるソングユニットです。公演案内や作品紹介では、二人の名前が並んで掲載されています。\n\nトークで「さゆりさん」と呼ばれたとき、まずカミムスヒとのつながりを覚えておくと話を追いやすくなります。歌声や二人のやりとりにも注目してみてください。",
+    "context": "カミムスヒのライブ・奉納演奏・アルバム紹介で登場します。",
+    "related": [
+      "kamimusuhi",
+      "amemusubi"
+    ],
+    "source": "https://www.youtube.com/watch?v=P8wNqTu7CFg",
+    "sourceLabel": "油川さゆりさんのインタビューを見る",
+    "aliases": [
+      "さゆりさん",
+      "油川さん"
+    ]},
+  {
+    "id": "oi-eriko",
+    "name": "大井映理子",
+    "reading": "おおい えりこ",
+    "category": "人・活動",
+    "summary": "エメラルドタブレットや神言で共演する、クリスタルボウル奏者。",
+    "detail": "總水とおまさんの声・語りに、クリスタルボウルの響きを重ねる共演者です。エメラルドタブレットの作品や、神言の出演者紹介で名前を見かけます。\n\n「映理子さん」「えりこさん」と呼ばれる場面もあります。出演者の名前と担当する音を結びつけて覚えると、作品ごとの編成を理解しやすくなります。",
+    "context": "声とクリスタルボウルの組み合わせが、名前を覚える手がかりです。",
+    "related": [
+      "crystal-bowl",
+      "emerald",
+      "kamigoto",
+      "ueki-toshinori"
+    ],
+    "source": "https://www.youtube.com/@Amritarium",
+    "sourceLabel": "大井映理子さんのYouTubeを見る",
+    "aliases": [
+      "映理子さん",
+      "えりこさん",
+      "Amrita-rium"
+    ]},
+  {
+    "id": "yukako",
+    "name": "Yukako",
+    "reading": "ゆかこ",
+    "category": "人・活動",
+    "summary": "神言 -kamigoto- で、舞を担当する表現者。",
+    "detail": "總水とおまさんの歌、大井映理子さんのクリスタルボウルとともに、舞によって神言の場をつくる出演者です。公式の紹介では、古代舞を学び、各地の奉納舞に参加してきた経歴が掲載されています。\n\n名前だけでなく「舞」という役割と合わせて覚えると、三人の表現の違いが分かります。Eurekaで共演する優花さんとは別の方です。",
+    "context": "YUKAKOなど、大文字で表記されることもあります。",
+    "related": [
+      "kamigoto",
+      "oi-eriko"
+    ],
+    "source": "https://tomasource.hp.peraichi.com/kamigoto",
+    "sourceLabel": "神言の公式サイトでYukakoさんを知る",
+    "aliases": [
+      "YUKAKO",
+      "ゆかこさん",
+      "舞"
+    ]},
+  {
+    "id": "pienipisara",
+    "name": "pienipisara",
+    "reading": "ピエニピサラ",
+    "category": "コミュニティ",
+    "summary": "とおまさんのCD・公演チケットなどを扱う販売窓口。",
+    "detail": "公式の告知から案内されるオンラインショップです。ライブ、配信、CD、冊子など、さまざまな商品や申し込みが掲載されています。\n\n商品名の「現地観覧」「オンライン配信」「会員先行」などを読み、希望する参加方法と合っているか確認して進みましょう。サイトの名前とTOMA BOXの会員名は別のものです。",
+    "context": "BASEのショップ画面に移動したときに、ページ上部で見かける名前です。",
+    "related": [
+      "tomabox",
+      "gekkan-toma"
+    ],
+    "source": "https://pienipisara2.thebase.in/",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "ピエニ ピサラ",
+      "販売サイト",
+      "チケット"
+    ]},
+  {
+    "id": "tenma",
+    "name": "てんま",
+    "reading": "てんま",
+    "category": "世界観",
+    "summary": "とおまさんの発信で語られる名前。「テンマルシェ」の名前にもつながります。",
+    "detail": "2025年5月27日の配信では、授かった名前の由来として「天に馬」「ペガサス」という説明が語られています。とおまさん自身が紹介する、活動にまつわるエピソードの一つです。\n\nテンマルシェなどの告知で同じ音を見かけたとき、名前の背景を知っているとつながりを感じられます。ここでは、ご本人が語る物語として紹介しています。",
+    "context": "文字では「天馬」、呼び名では「てんま」と書かれることがあります。",
+    "related": [
+      "tenmarche",
+      "moon-stream",
+      "source"
+    ],
+    "source": "https://www.youtube.com/watch?v=O4yikP04UH8",
+    "sourceLabel": "関連する公開情報を見る",
+    "aliases": [
+      "天馬",
+      "テンマ",
+      "ペガサス"
+    ]},
+  {
+    "id": "amemusubi",
+    "name": "あめむすび",
+    "reading": "あめむすび",
+    "category": "音楽",
+    "summary": "カミムスヒのアルバム。土地や神々を題材にした楽曲が収録されています。",
+    "detail": "カミムスヒの作品名です。公式販売ページでは『ミクマリノカミ』『Kifune』『あふひ』『天つ神へ』『さくやひめ』『鎮魂華』の6曲が紹介されています。\n\nカミムスヒがユニット名、あめむすびがアルバム名です。CDの紹介とデジタル配信の告知は時期が異なることもあるので、作品名を軸に探すと見つけやすくなります。",
+    "context": "「むすび」が似ているので、ユニット名と作品名をセットで覚えると便利です。",
+    "related": [
+      "kamimusuhi",
+      "aburakawa",
+      "pienipisara"
+    ],
+    "source": "https://pienipisara2.thebase.in/items/27587142",
+    "sourceLabel": "公式のアルバム紹介を読む",
+    "aliases": []},
+  {
+    "id": "fuka",
+    "name": "Fu.ka",
+    "reading": "",
+    "category": "人・活動",
+    "summary": "WHITEBURNなどで、音楽を身体で表現するダンサー。",
+    "detail": "ライブで音楽にダンスを重ねる出演者です。ご本人は「Movement Artist」として、即興のダンスやワークショップなどの活動を紹介しています。\n\nWHITEBURNの出演者紹介で名前を見かけたら、歌や演奏と一緒に、身体の動きから生まれる表現にも注目してみてください。",
+    "context": "WHITEBURNの告知や出演者紹介で、ダンスを担当するメンバーとして登場します。",
+    "related": [
+      "whiteburn",
+      "ishtar",
+      "mimico"
+    ],
+    "source": "https://www.youtube.com/watch?v=25CSVgBv5WI",
+    "sourceLabel": "Fu.kaさんのトーク配信を見る",
+    "aliases": [
+      "Fuka.",
+      "Fu ka"
+    ]},
+  {
+    "id": "mimico",
+    "name": "mimico",
+    "reading": "",
+    "category": "人・活動",
+    "summary": "WHITEBURNのコーラスを担当する、シンガーソングライター。",
+    "detail": "シンガーソングライター、ボーカルトレーナーなどとして活動し、2026年のWHITEBURNからコーラスに参加しています。\n\nとおまさんの歌声に重なるコーラスも、ライブを味わう手がかりのひとつ。出演者紹介では、歌や声に関わるメンバーとして名前を見つけられます。",
+    "context": "WHITEBURNの出演者一覧や、ライブを振り返る記事・動画で出会う名前です。",
+    "related": [
+      "whiteburn",
+      "ishtar",
+      "fuka"
+    ],
+    "source": "https://www.youtube.com/watch?v=n7lBYPbkm-g",
+    "sourceLabel": "mimicoさんのインタビューを見る",
+    "aliases": []},
+  {
+    "id": "honda-yukari",
+    "name": "本多ゆかり",
+    "reading": "ほんだ ゆかり",
+    "category": "人・活動",
+    "summary": "ライブや「月刊とおま」のヘアメイクを支える、美容師・ヘアメイク。",
+    "detail": "TOMA LIVEや「月刊とおま」のヘアメイクに長年関わっている方です。ライブの報告記事では、出演者とともに制作を支えるスタッフとして紹介されています。\n\nステージや誌面で見えるとおまさんの姿には、ヘアメイクによる表現も重なっています。「ゆかりさん」という名前が出てきたら、そのつながりを思い出してみてください。",
+    "context": "ライブの舞台裏、ヘアメイクの話題、冊子の制作についての話で登場します。",
+    "related": [
+      "gekkan-toma",
+      "whiteburn",
+      "toma"
+    ],
+    "source": "https://ameblo.jp/yu-1012toyo-1211/",
+    "sourceLabel": "本多ゆかりさんのブログを読む",
+    "aliases": [
+      "ゆかりさん"
+    ]},
+  {
+    "id": "yuka",
+    "name": "優花",
+    "reading": "ゆうか",
+    "category": "人・活動",
+    "summary": "とおまさんとのコラボレーションライブ「Eureka」の共演者。",
+    "detail": "チャネラー・アーティストとして活動し、とおまさんと「Eureka〈エウレカ〉」を共に開催している方です。歌や舞、言葉を通じた表現で共演しています。\n\nEurekaの告知や対談で名前を見かけたら、まずは「とおまさんと一緒にEurekaをつくる人」と覚えると、活動のつながりが分かりやすくなります。",
+    "context": "Eurekaの公演案内や、とおまさんとのコラボレーションの話題で登場します。",
+    "related": [
+      "eureka",
+      "toma"
+    ],
+    "source": "https://www.youtube.com/@YUUKAMusic",
+    "sourceLabel": "優花さんのYouTubeを見る",
+    "aliases": [
+      "YUKA",
+      "優花さん"
+    ]},
+  {
+    "id": "ueki-toshinori",
+    "name": "上木敏則",
+    "reading": "",
+    "category": "人・活動",
+    "summary": "神言 -kamigoto- をはじめるにあたり、とおまさんが学んだ相手として紹介する人物。",
+    "detail": "「松果体活性化講座」の開発者として紹介され、大井映理子さんが師事したことを公表しています。エメラルドタブレットや神言にまつわる話でも登場する名前です。\n\n2026年5月2日の新月・満月配信では、とおまさん自身が、神言 -kamigoto- をはじめるにあたり鹿児島の上木さんのもとで学んだと話しています。作品の背景にある学びをたどるときの手がかりになります。",
+    "context": "配信で「上木さん」と呼ばれたり、神言・エメラルドタブレットの背景を語る場面に登場したりします。",
+    "related": [
+      "oi-eriko",
+      "kamigoto",
+      "emerald",
+      "moon-stream"
+    ],
+    "source": "https://www.youtube.com/watch?v=rDhPyZe3mLE&list=PLeGvU5YTtP9iU23Hn38PlA9aPTrUIgHBm",
+    "sourceLabel": "「八球の階」の動画をYouTubeで見る",
+    "aliases": [
+      "上木さん"
+    ]},
+  {
+    "id": "kiritsu-area",
+    "name": "喜立エリア",
+    "reading": "きりつ エリア",
+    "category": "座席・エリア",
+    "summary": "椅子を設けず、立ったままライブを楽しむエリア。",
+    "detail": "TOMA LIVEで案内される、椅子のないスタンディングエリアです。立ったまま音楽を楽しむ観覧スタイルになります。\n\n立魅エリアには椅子があり、喜立エリアには椅子がない、という点が選ぶときの目印です。設定の有無・会場内の位置・料金は公演ごとに異なるため、購入するチケットの案内を確認してください。",
+    "context": "チケットの販売ページや会場のエリア図に出てくる名前です。",
+    "related": [
+      "tachimi-area",
+      "zagaku-area",
+      "vip-area",
+      "whiteburn",
+      "pienipisara",
+      "toma-live"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12887883710.html",
+    "sourceLabel": "公式スタッフのエリア説明を見る",
+    "aliases": [
+      "喜立",
+      "スタンディング",
+      "きりつ"
+    ]},
+  {
+    "id": "tachimi-area",
+    "name": "立魅エリア",
+    "reading": "たちみ エリア",
+    "category": "座席・エリア",
+    "summary": "椅子があり、立っても座ってもライブを楽しめるエリア。",
+    "detail": "TOMA LIVEで、立つ・座るを選びながら観覧できるエリアです。椅子を利用できるので、曲や自分のペースに合わせて楽しめます。\n\nチケット案内では、椅子のない喜立エリアや、着席して観覧する座楽エリアと分けて紹介されています。配置・料金・当日のルールは、参加する公演の公式案内を確認してください。",
+    "context": "「立魅」という表記を見たら、立ちっぱなしではなく椅子も使える区分だと分かります。",
+    "related": [
+      "kiritsu-area",
+      "zagaku-area",
+      "vip-area",
+      "whiteburn",
+      "pienipisara",
+      "toma-live"
+    ],
+    "source": "https://pienipisara2.thebase.in/items/159039746",
+    "sourceLabel": "立魅エリアの公式販売案内を見る",
+    "aliases": [
+      "立魅",
+      "たちみ",
+      "たちみせき",
+      "立見"
+    ]},
+  {
+    "id": "zagaku-area",
+    "name": "座楽エリア",
+    "reading": "ざがく エリア",
+    "category": "座席・エリア",
+    "summary": "座ったまま、ゆっくりライブを楽しむエリア。",
+    "detail": "TOMA LIVEで、着席して観覧するためのエリアです。椅子に座って、歌や演奏をじっくり味わいたいときの選択肢になります。\n\nすべての公演に設けられるわけではありません。座楽エリアの有無や位置、座席の指定方法は、その公演のチケット案内で確認しましょう。",
+    "context": "チケットの区分や、座って観覧したいときの案内に登場します。",
+    "related": [
+      "kiritsu-area",
+      "tachimi-area",
+      "vip-area",
+      "whiteburn",
+      "pienipisara",
+      "toma-live"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12887883710.html",
+    "sourceLabel": "公式スタッフのエリア説明を見る",
+    "aliases": [
+      "座楽",
+      "ざがく",
+      "着席"
+    ]},
+  {
+    "id": "vip-area",
+    "name": "VIPエリア",
+    "reading": "ブイアイピー エリア",
+    "category": "座席・エリア",
+    "summary": "専用の観覧エリアと、公演ごとの特典が付くチケット区分。",
+    "detail": "TOMA LIVEで、専用の観覧スペースと特典を組み合わせたチケット区分です。専用席の位置や鑑賞スタイルは会場によって変わります。\n\nリハーサル見学や出演者との記念撮影が案内される公演もあります。特典の内容、集合時間、料金は公演ごとの設定なので、申し込み前に該当する販売ページを確認してください。",
+    "context": "チケット購入時に、観覧エリアに加えて特典の内容も確認したい区分です。",
+    "related": [
+      "kiritsu-area",
+      "tachimi-area",
+      "zagaku-area",
+      "whiteburn",
+      "pienipisara",
+      "toma-live"
+    ],
+    "source": "https://pienipisara2.thebase.in/items/159042344",
+    "sourceLabel": "VIPエリアの公式販売案内を見る",
+    "aliases": [
+      "VIP",
+      "VIP席",
+      "ビップ"
+    ]},
+  {
+    "id": "iqm",
+    "name": "IQM",
+    "reading": "アイキューエム",
+    "category": "世界観",
+    "summary": "配信で、願いの「後押し」として紹介されるエネルギーワーク。",
+    "detail": "Integrative Quantum Medicineの略で、ルイーズ・三田さんが紹介するエネルギーワークの名称です。とおまさんのブログでは「統合量子医学」と表記されています。\n\n新月・満月配信では、視聴者がコメント欄に書いた願いに、とおまさんが「後押しの魔法をかける」と表現する場面で登場します。配信のやりとりを楽しむために覚えておくと、話の流れを追いやすくなることばです。",
+    "context": "配信の終盤や、願い事・これからやってみたいことをチャットに書く場面で登場します。",
+    "related": [
+      "moon-stream",
+      "toma"
+    ],
+    "source": "https://ameblo.jp/tomasource/entry-12876350149.html",
+    "sourceLabel": "IQMに触れたとおまさんのブログを読む",
+    "aliases": [
+      "Integrative Quantum Medicine",
+      "統合量子医学",
+      "統合量子術",
+      "アイキューエム"
+    ]},
+  {
+    "id": "mirai-kenshu",
+    "name": "未来研修",
+    "reading": "みらい けんしゅう",
+    "category": "コミュニティ",
+    "summary": "TOMA BOX会員を対象にした、体験を通して学ぶ宿泊型の企画。",
+    "detail": "公式ファンクラブTOMA BOXの会員向けに案内される研修です。麹や発酵を学び、麹ソムリエの資格取得を目指す宿泊型の企画などが紹介されています。\n\n2027年の募集は全プランの会員が対象とされ、研修によって受講資格が設けられています。会費とは別に参加費が必要です。日程・申込条件・費用は、その回の募集案内を確認してください。",
+    "context": "TOMA BOXの会員向けメールや、公式スタッフブログの募集記事に登場します。",
+    "related": [
+      "tomabox",
+      "guild",
+      "tea-party"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12981455125.html",
+    "sourceLabel": "未来研修の公式募集案内を見る",
+    "aliases": [
+      "未来研修会",
+      "麹ソムリエ"
+    ]},
+  {
+    "id": "zeitaku-meiso",
+    "name": "贅沢瞑想",
+    "reading": "ぜいたく めいそう",
+    "category": "配信・メディア",
+    "summary": "TOMA BOXの全会員向け特典として案内されている、瞑想のコンテンツ。",
+    "detail": "TOMA BOXの会員特典として、オリジナル企画「贅沢瞑想」の視聴権が案内されています。公式の紹介では、YouTubeで公開している「磁極調整プログラム」をもとにした企画とされています。\n\n公開時期や視聴方法は、会員向けの案内を確認してください。TOMA BOXの特典一覧や、瞑想に関する話の中で出会う企画名です。",
+    "context": "TOMA BOXのプラン紹介や、会員限定コンテンツの案内で見かけます。",
+    "related": [
+      "tomabox",
+      "three-minutes-toma",
+      "tea-party",
+      "emerald",
+      "magnetic-pole-program"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12953922038.html",
+    "sourceLabel": "会員特典の公式案内を見る",
+    "aliases": [
+      "ぜいたく瞑想"
+    ]},
+  {
+    "id": "three-minutes-toma",
+    "name": "3分とおま",
+    "reading": "さんぷん とおま",
+    "category": "配信・メディア",
+    "summary": "TOMA BOXサファイア・エメラルド会員向けの、短い動画企画。",
+    "detail": "とおまさんのメッセージやゲストとの会話などを楽しめる、会員向けの動画企画です。毎月の配信として案内され、ライブの舞台裏や共演者とのやりとりが紹介される回もあります。\n\n対象はTOMA BOXのサファイア・エメラルドプラン会員です。視聴用URLは事務局からの案内メールなどで確認できます。内容や視聴方法は、その月の案内をご覧ください。",
+    "context": "「今月の3分とおま」「配信開始」という会員向けのお知らせに登場します。",
+    "related": [
+      "tomabox",
+      "zeitaku-meiso",
+      "tea-party"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12982785322.html",
+    "sourceLabel": "3分とおまの公式配信案内を見る",
+    "aliases": [
+      "３分とおま",
+      "三分とおま",
+      "3分トオマ"
+    ]},
+  {
+    "id": "tea-party",
+    "name": "A Fun fun Tea-Party",
+    "reading": "ファンファン ティーパーティー",
+    "category": "コミュニティ",
+    "summary": "とおまさんとお茶の時間を楽しむ、TOMA BOXエメラルド会員向けの企画。",
+    "detail": "とおまさんとお茶を囲み、同じ時間を楽しむお茶会です。少人数で集まる対面の企画に加え、2026年度からはオンライン版も会員特典として案内されています。\n\n対象はTOMA BOXのエメラルドプラン会員です。開催日や参加方法、募集条件は各回の案内を確認してください。オンライン版では、自分の好きなお茶を用意して参加する楽しみ方も紹介されています。",
+    "context": "TOMA BOXの特典一覧や「A Fun fun Tea-Party -Online-」のお知らせで出会う名前です。",
+    "related": [
+      "tomabox",
+      "zeitaku-meiso",
+      "three-minutes-toma",
+      "mirai-kenshu"
+    ],
+    "source": "https://ameblo.jp/tomastaff/entry-12975441232.html",
+    "sourceLabel": "お茶会の公式案内を見る",
+    "aliases": [
+      "A Fun Fun Tea Party",
+      "Fun fun Tea-Party",
+      "ファンファンティーパーティー",
+      "お茶会"
+    ]}
+]

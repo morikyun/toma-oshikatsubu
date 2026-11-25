@@ -1,0 +1,16 @@
+node_modules/
+.wrangler/
+.DS_Store
+*.zip
+.env*
+.dev.vars*
+dist/
+research/
+.cache/
+coverage/
+*.log
+*.pem
+*.key
+wrangler.toml
+wrangler.json
+wrangler.jsonc

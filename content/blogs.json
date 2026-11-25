@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tomasource",
+    "name": "とおまさんのブログ",
+    "label": "FROM TOMA",
+    "description": "とおまさん自身の言葉でつづる、日々のことや活動のこと。",
+    "url": "https://ameblo.jp/tomasource/",
+    "feedUrl": "https://rssblog.ameba.jp/tomasource/rss20.xml"
+  },
+  {
+    "id": "tomastaff",
+    "name": "公式スタッフブログ",
+    "label": "FROM THE STAFF",
+    "description": "公演・チケット・公式ファンクラブなどのお知らせ。",
+    "url": "https://ameblo.jp/tomastaff/",
+    "feedUrl": "https://rssblog.ameba.jp/tomastaff/rss20.xml"
+  },
+  {
+    "id": "osikatutoma",
+    "name": "推し活部のブログ",
+    "label": "CLUB JOURNAL",
+    "description": "推し活部からのお知らせや、みんなで楽しむ活動の様子をお届けします。",
+    "url": "https://ameblo.jp/osikatutoma/",
+    "feedUrl": "https://rssblog.ameba.jp/osikatutoma/rss20.xml"
+  }
+]
