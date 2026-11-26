@@ -11,8 +11,6 @@ const memories = [
   {image:'at-the-table', width:836, height:628, alt:'食卓で大きな料理の盛り合わせを囲む、笑顔の二人', caption:'一緒に食べて、一緒に笑って。'},
   {image:'behind-the-scenes', width:1349, height:900, alt:'スタッフのTシャツを着て、会場のテーブルで仲間と過ごすともちゃんの後ろ姿', caption:'みんなの時間を、支える背中。'},
   {image:'side-by-side', width:888, height:590, alt:'明るい会場で、仲間と肩を並べて笑顔を見せるともちゃん', caption:'ふとしたひとときも、大切な思い出。'},
-  {image:'on-stage', width:899, height:900, alt:'銀座TACTのステージに、花束とともに並ぶ三人', caption:'音楽がつないでくれた、ご縁。'},
-  {image:'with-friends', width:1199, height:900, alt:'酒部の札を囲んで、ポーズをとるともちゃんと仲間たちの集合写真', caption:'集まれば、こんなにいい顔。'},
 ];
 
 // A small, editorial selection of public recordings; deliberately independent of latest-video feeds.
@@ -66,7 +64,7 @@ export const tomochanPage = () => `<article class="tomochan-page">
 
   <section class="tomochan-thanks" aria-labelledby="tomochan-thanks-title"><div class="container">
     <div class="tomochan-thanks-copy"><p class="tomochan-kicker" lang="en">WITH LOVE &amp; GRATITUDE</p><h2 id="tomochan-thanks-title">ありがとう、<br class="mobile-br">ともちゃん。</h2><p>一緒に笑った時間。<br>好きなことを語り合った時間。</p><p>ともちゃんがつないでくれたご縁は、<br>これからも私たちの中に。</p><p class="tomochan-signature">TOMA推し活部</p></div>
-    <figure>${photo('one-more-photo','スタッフのTシャツを着た仲間たちと、階段で思い思いのポーズをとる集合写真',1348,900)}<figcaption>これからも、大切な仲間。</figcaption></figure>
+    <figure>${photo('sunset-together','夕暮れの屋上で、手を振ったりポーズをとったりするともちゃんと仲間たち',835,627)}<figcaption>これからも、大切な仲間。</figcaption></figure>
     <a class="tomochan-text-link" href="/club/">推し活部についてに戻る</a>
   </div></section>
 </article>`;
