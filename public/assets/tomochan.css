@@ -53,7 +53,7 @@
 .tomochan-thanks h2{margin-bottom:25px}
 .tomochan-thanks-copy>p:not(.tomochan-kicker){font-family:var(--serif);font-size:1.125rem;line-height:2.2}
 .tomochan-thanks-copy>p.tomochan-signature{font-family:var(--sans);font-size:.875rem;letter-spacing:.08em;color:var(--muted);margin:28px 0 0}
-.tomochan-thanks figure{max-width:835px;margin:0 auto 32px}
+.tomochan-thanks figure{margin:0 0 32px}
 .tomochan-thanks figcaption{font-family:var(--serif);font-size:.9375rem;padding-top:18px;color:var(--muted)}
 @media(min-width:1440px){.tomochan-hero{padding-block:90px 100px}}
 @media(min-width:701px) and (max-width:900px){.tomochan-hero{grid-template-columns:1fr!important;gap:35px;padding-block:45px 55px}.tomochan-hero-photo{width:min(100%,650px);justify-self:center}.tomochan-stories{grid-template-columns:1fr;gap:26px}.tomochan-hero-note br{display:none}}
