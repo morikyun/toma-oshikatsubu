@@ -17,13 +17,13 @@ const memories = [
 
 // A small, editorial selection of public recordings; deliberately independent of latest-video feeds.
 const recordings = [
-  {id:'3c48NKMjvWQ', date:'2025.03.14', channel:'TOMANIA LIVE', title:'TOMANIA LIVE 初回スペシャル', heading:'ここから始まった、TOMANIA LIVE。', description:'初回のゲストは、よっしー。とおまさんへの想いや、推し活の楽しさを語り合う、はじまりの配信です。', start:0, embeddable:false},
+  {id:'Gl8oLyr4tLY', date:'2026.05.07', channel:'TOMA☆トーク', title:'④5月9日「テンマルシェ」ビックサイトで開催！', heading:'とおまさんと話して、笑って。', description:'とおまさん主催の「テンマルシェ」に、麹屋おりぜとして出展を決めたともちゃん。TOMA☆トークの出店者紹介で、麹屋をはじめる話から、とおまさんとの楽しいやりとり、そしてともちゃんらしい大笑いへとつながります。', start:244, cue:'ともちゃんの出演場面から再生（4:04〜）'},
   {id:'qZkFyZ8p-SY', date:'2026.01.09', channel:'神山真希', title:'【響新共命⑦】“總水とおまLIVE”楽しみ方を｢伊藤友隆さん｣にインタビュー！', heading:'「好き」を語る、ともちゃん。', description:'とおまさんとの出会い、ライブで心が動いたこと。神山真希さんとの対談で、ともちゃん自身の言葉に触れられます。', start:0},
   {id:'dNHacuPbXS0', date:'2026.07.18', channel:'TOMANIA LIVE', title:'第２弾！WHITEBURN２アフタートーク メンズスペシャル！', heading:'人類のために、何かしたい。', description:'ライブで心に芽生えた、人類のために何かしたいという想い。2026年7月18日のTOMANIA LIVEで、その気持ちを仲間に話している場面です。', start:1778, cue:'想いを語る場面から再生（29:38〜）'},
 ];
 
 const recording = video => `<article class="tomochan-recording">
-  <div class="tomochan-player">${video.embeddable===false ? `<a class="tomochan-video-cover" href="https://www.youtube.com/watch?v=${video.id}" target="_blank" rel="noopener noreferrer"><img src="https://i.ytimg.com/vi/${video.id}/hqdefault.jpg" width="480" height="360" loading="lazy" alt=""><span class="tomochan-play-icon" aria-hidden="true">▶</span><span class="tomochan-watch-label">YouTubeで見る<span class="sr-only">（新しいタブ）</span></span></a>` : `<iframe translate="no" src="https://www.youtube-nocookie.com/embed/${video.id}?autoplay=0&amp;playsinline=1${video.start ? `&amp;start=${video.start}` : ''}" title="${esc(video.title)}" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`}</div>
+  <div class="tomochan-player"><iframe translate="no" src="https://www.youtube-nocookie.com/embed/${video.id}?autoplay=0&amp;playsinline=1${video.start ? `&amp;start=${video.start}` : ''}" title="${esc(video.title)}" width="560" height="315" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>
   <div class="tomochan-recording-copy"><p class="tomochan-recording-meta"><span translate="no">${video.channel}</span><time datetime="${video.date.replaceAll('.','-')}">${video.date}</time></p>
   <h3>${video.heading}</h3><p>${video.description}</p>${video.cue ? `<p class="tomochan-cue">${video.cue}</p>` : ''}
   <a class="tomochan-text-link" href="https://www.youtube.com/watch?v=${video.id}${video.start ? `&amp;t=${video.start}s` : ''}" target="_blank" rel="noopener noreferrer">YouTubeで見る<span class="sr-only">（新しいタブ）</span></a></div>
