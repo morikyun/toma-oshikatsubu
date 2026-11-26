@@ -1171,6 +1171,8 @@
     "prefOita": "大分",
     "prefMiyazaki": "宮崎",
     "prefKagoshima": "鹿児島",
-    "prefOkinawa": "沖縄"
+    "prefOkinawa": "沖縄",
+    "channel_retrying": "更新を確認できないチャンネルがあります。取得済みの情報を残して、自動で再試行します。",
+    "channel_retry_exhausted": "更新を確認できないチャンネルがあります。取得済みの情報を表示しています。しばらくしてからページを再読み込みしてください。"
   }
 }

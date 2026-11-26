@@ -1,5 +1,6 @@
-import {translate,localizeFragment,localPath} from './i18n.js?v=i18n-zh-20261125';
+import {translate,localizeFragment,localPath} from './i18n.js?v=fan-retry-20261126';
 import {latestVideo,channelStatus,scheduleEvents,scheduleStatus,officialVideos,officialVideoStatus,officialLatestVideos,officialLatestStatus,latestDigestUrl} from './youtube-views.js?v=i18n-zh-20261125';
+import {createChannelUpdater} from './channel-updates.js?v=fan-retry-20261126';
 
 const cards=[...document.querySelectorAll('[data-channel-id]')];
 const scheduleAreas=[...document.querySelectorAll('[data-youtube-schedule]')];
@@ -16,22 +17,17 @@ function paintSchedule(data) {
   for (const area of scheduleAreas) paint(area,scheduleEvents(data,area.dataset.youtubeSchedule==='compact'));
   document.querySelectorAll('[data-schedule-status]').forEach(el=>{el.textContent=translate(scheduleStatus(data));});
 }
-async function refresh() {
-  const current=++generation;
-  controller?.abort();
-  clearInterval(timer); timer=null; scheduleData=null;
-  controller=new AbortController();
-  const signal=controller.signal;
-  const active=()=>current===generation && !signal.aborted;
-  async function get(path) {
-    const response=await fetch(path,{signal:AbortSignal.any([signal,AbortSignal.timeout(45000)]),cache:'no-cache'});
-    if (!response.ok) throw new Error('UPDATE_UNAVAILABLE');
-    return response.json();
-  }
-  const requests=[];
-  if (cards.length) requests.push(get('/api/channels').then(data=>{
-    if (!active()) return;
-    if (!Array.isArray(data.items)) throw new Error('INVALID_RESPONSE');
+async function getJson(path, signal) {
+  const response=await fetch(path,{signal:AbortSignal.any([signal,AbortSignal.timeout(45000)]),cache:'no-cache'});
+  if (!response.ok) throw new Error('UPDATE_UNAVAILABLE');
+  return response.json();
+}
+const channelUpdater=cards.length ? createChannelUpdater({
+  initialData:{items:cards.flatMap(card=>{
+    try {return [JSON.parse(card.dataset.channelState)];} catch {return [];}
+  })},
+  load:signal=>getJson('/api/channels',signal),
+  render(data) {
     const index=new Map(data.items.map(item=>[item.channelId,item]));
     for (const card of cards) {
       const item=index.get(card.dataset.channelId);
@@ -45,11 +41,27 @@ async function refresh() {
     for (const card of sorted) grid.append(card);
     document.querySelector('[data-channel-status]').textContent=translate(channelStatus(data));
     document.querySelector('[data-search-input]')?.dispatchEvent(new Event('input'));
-  }).catch(()=>{
-    if (!active()) return;
+  },
+  onFailure({retryIn}) {
     const status=document.querySelector('[data-channel-status]');
-    if (status) status.textContent=translate('更新を確認できないため、ページ作成時の情報を表示しています。最新の動画は各チャンネルでも確認できます。');
-  }));
+    if (status) status.textContent=translate(retryIn!==null
+      ? '更新を確認できないチャンネルがあります。取得済みの情報を残して、自動で再試行します。'
+      : '更新を確認できないチャンネルがあります。取得済みの情報を表示しています。しばらくしてからページを再読み込みしてください。');
+  }
+}) : null;
+if (channelUpdater) {
+  window.addEventListener('pagehide',()=>channelUpdater.stop());
+  window.addEventListener('pageshow',event=>{if(event.persisted)channelUpdater.start();});
+}
+async function refresh() {
+  const current=++generation;
+  controller?.abort();
+  clearInterval(timer); timer=null; scheduleData=null;
+  controller=new AbortController();
+  const signal=controller.signal;
+  const active=()=>current===generation && !signal.aborted;
+  const get=path=>getJson(path,signal);
+  const requests=[];
   if (scheduleAreas.length) {
     requests.push(get('/api/schedule').then(data=>{
       if (!active()) return;
@@ -82,4 +94,5 @@ async function refresh() {
   }));
   await Promise.allSettled(requests);
 }
+channelUpdater?.start();
 refresh();

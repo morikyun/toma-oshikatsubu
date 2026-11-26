@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseFeed,sortChannels,fetchChannelUpdates,fetchSchedule,createHandler,SCHEDULE_TTL,visibleEvents} from '../src/youtube-service.mjs';
+import {parseFeed,sortChannels,fetchChannelUpdates,fetchSchedule,createHandler,CHANNEL_TTL,SCHEDULE_TTL,visibleEvents} from '../src/youtube-service.mjs';
 import {latestVideo,scheduleEvents} from '../public/assets/youtube-views.js';
 const now=Date.parse('2026-11-17T00:00:00+09:00');
 const cid='UCKQrY7ceEy_lbBSXXHtkMzQ';
@@ -104,4 +104,44 @@ test('rendering escapes titles, uses direct watch URLs, and expires historical s
  assert.deepEqual(visibleEvents([old],now,seed.schedule.checkedAt),[]);
  assert.ok(scheduleEvents({...seed.schedule,events:[old]},false,now).includes('公式チャンネル'));
  assert.ok(scheduleEvents({checkedAt:new Date(now).toISOString(),events:[{...event,startsAt:null}],mode:'api',stale:false},false,now).includes('開始時刻未定'));
+});
+test('fan videos survive a KV read outage after a previous request read a fresh cached result',async()=>{
+ let time=now,reads=0,calls=0;
+ const checkedAt=new Date(now).toISOString();
+ const good={checkedAt,items:[{channelId:cid,latest:{id:'bbbbbbbbbbb',format:'video'},checkedAt,status:'ok'}],stale:false};
+ const cache={get:async()=>{if(++reads>1)throw Error('KV unavailable');return {data:good,retryAt:now+CHANNEL_TTL};},put:async()=>{throw Error('KV unavailable');}};
+ const handler=createHandler(config,{now:()=>time,fetcher:async()=>{calls++;throw Error('RSS unavailable');}});
+ const request=()=>handler.fetch(new Request('https://site.test/api/channels'),{YOUTUBE_CACHE:cache}).then(r=>r.json());
+ assert.equal((await request()).items[0].latest.id,'bbbbbbbbbbb');assert.equal(calls,0);
+ time+=CHANNEL_TTL+1;
+ const result=await request();
+ assert.equal(result.items[0].latest.id,'bbbbbbbbbbb');assert.equal(result.items[0].checkedAt,checkedAt);
+ assert.equal(result.items[0].status,'unavailable');assert.equal(calls,1);
+});
+test('a delayed older KV value cannot overwrite the last successful fan result',async()=>{
+ let time=now;
+ const cache={get:async()=>({data:seed.channels,retryAt:now-1}),put:async()=>{}};
+ const handler=createHandler(config,{now:()=>time,fetcher:async()=>{
+   if(time>now)throw Error('RSS unavailable');
+   return new Response('<feed>'+entry('bbbbbbbbbbb','2026-11-15T12:00:00Z')+'</feed>');
+ }});
+ const request=()=>handler.fetch(new Request('https://site.test/api/channels'),{YOUTUBE_CACHE:cache}).then(r=>r.json());
+ const first=await request();time+=CHANNEL_TTL+1;
+ const result=await request();
+ assert.equal(result.items[0].latest.id,first.items[0].latest.id);
+ assert.equal(result.items[0].status,'unavailable');
+});
+test('shared fan cache retains successful videos through repeated upstream failures and recovers',async()=>{
+ const cache=kv();let time=now,available=true,calls=0;
+ const request=()=>createHandler(config,{now:()=>time,fetcher:async()=>{
+   calls++;if(!available)throw Error('RSS unavailable');
+   return new Response('<feed>'+entry(time===now?'bbbbbbbbbbb':'ccccccccccc','2026-11-15T12:00:00Z')+'</feed>');
+ }}).fetch(new Request('https://site.test/api/channels'),{YOUTUBE_CACHE:cache}).then(r=>r.json());
+ await request();available=false;time+=CHANNEL_TTL+1;
+ for(let i=0;i<2;i++){
+   const result=await request();assert.equal(result.items[0].latest.id,'bbbbbbbbbbb');assert.equal(result.items[0].status,'unavailable');
+   const before=calls;await request();assert.equal(calls,before); // Retry cache still limits upstream traffic.
+   time+=5*60_000+1;
+ }
+ available=true;assert.equal((await request()).items[0].latest.id,'ccccccccccc');
 });

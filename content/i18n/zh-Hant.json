@@ -1171,6 +1171,8 @@
     "prefOita": "大分",
     "prefMiyazaki": "宮崎",
     "prefKagoshima": "鹿兒島",
-    "prefOkinawa": "沖繩"
+    "prefOkinawa": "沖繩",
+    "channel_retrying": "部分頻道暫時無法更新。我們會保留已取得的資訊，並自動重試。",
+    "channel_retry_exhausted": "部分頻道暫時無法更新。目前顯示已取得的資訊，請稍後重新載入頁面。"
   }
 }
