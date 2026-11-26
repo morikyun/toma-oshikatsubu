@@ -215,10 +215,20 @@ export function createHandler(config, dependencies = {}) {
   const memory=new Map();
   const inflight=new Map();
   const json = (data,status=200) => new Response(JSON.stringify(data),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':status===200?'private, max-age=60':'no-store','X-Content-Type-Options':'nosniff'}});
-  async function read(key, env) {
+  async function read(key, env, kind) {
     if (memory.get(key)?.retryAt > now()) return memory.get(key);
     if (env.YOUTUBE_CACHE) {
-      try { const value=await env.YOUTUBE_CACHE.get(key,'json'); if (value) return value; } catch {}
+      try {
+        const value=await env.YOUTUBE_CACHE.get(key,'json');
+        if (value) {
+          if (kind==='channels') {
+            // KV may briefly return an older version. Keep the newest known result.
+            if (Date.parse(memory.get(key)?.data?.checkedAt)>=Date.parse(value.data?.checkedAt)) return memory.get(key);
+            memory.set(key,value);
+          }
+          return value;
+        }
+      } catch {}
     }
     return memory.get(key);
   }
@@ -230,7 +240,7 @@ export function createHandler(config, dependencies = {}) {
     const key=`youtube-v4:${config.revision}:${kind}`;
     if (inflight.has(key)) return inflight.get(key);
     const task=(async()=>{
-      const cached=await read(key,env);
+      const cached=await read(key,env,kind);
       const previous=cached?.data || config.snapshot[kind] || {items:[],checkedAt:null};
       const ttl=kind==='channels'?CHANNEL_TTL:kind==='schedule'?SCHEDULE_TTL:OFFICIAL_VIDEO_TTL;
       if (cached && now()<cached.retryAt) return cached.data;
@@ -244,7 +254,7 @@ export function createHandler(config, dependencies = {}) {
         data=kind==='channels' ? await fetchChannelUpdates(config.channels,previous,fetcher,now()) : kind==='officialVideos' ? await fetchOfficialVideos(config.official,env.YOUTUBE_API_KEY,fetcher,now()) : kind==='officialLatest' ? await fetchOfficialLatest(config.official,previous,env.YOUTUBE_API_KEY,fetcher,now()) : await fetchSchedule(config.official,env.YOUTUBE_API_KEY,fetcher,now());
         if (data.stale) retry=RETRY_TTL;
       } catch {
-        data={...previous,stale:true,mode:kind!=='channels'?'unavailable':undefined};
+        data={...previous,stale:true,mode:'unavailable'};
         retry=RETRY_TTL;
       }
       // Limit discovery requests even when the upstream rejects the key/quota.
@@ -265,7 +275,9 @@ export function createHandler(config, dependencies = {}) {
         const data=await refresh(kind,env);
         return json(kind==='schedule'?{...data,events:visibleEvents(data.events,now(),data.checkedAt)}:data);
       } catch {
-        return json({...config.snapshot[kind],stale:true,mode:'unavailable'});
+        // Unexpected failures must not roll fan videos back to the build-time snapshot.
+        const previous=kind==='channels'?memory.get(`youtube-v4:${config.revision}:${kind}`)?.data:null;
+        return json({... (previous || config.snapshot[kind]),stale:true,mode:'unavailable'});
       }
     }
   };

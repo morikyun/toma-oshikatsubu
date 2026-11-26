@@ -1171,6 +1171,8 @@
     "prefOita": "Oita",
     "prefMiyazaki": "Miyazaki",
     "prefKagoshima": "Kagoshima",
-    "prefOkinawa": "Okinawa"
+    "prefOkinawa": "Okinawa",
+    "channel_retrying": "Some channels could not be updated. Previously retrieved information is kept while we retry automatically.",
+    "channel_retry_exhausted": "Some channels could not be updated. Previously retrieved information is shown. Please reload the page later."
   }
 }
