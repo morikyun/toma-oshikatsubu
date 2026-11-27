@@ -1,6 +1,6 @@
 import {createTranslator} from './locale-core.js?v=i18n-zh-20261125';
 import {localeFor} from './locales.js?v=i18n-zh-20261125';
-import {catalogs} from './translations.js?v=fan-retry-20261126';
+import {catalogs} from './translations.js?v=relay-20261127';
 import {createLanguagePreference} from './language-preference.js?v=i18n-zh-20261125';
 export const language=localeFor(document.documentElement.lang).code;
 let storage;
