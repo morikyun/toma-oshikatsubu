@@ -44,7 +44,21 @@ export function relayPage(now=Date.now()) {
     <article class="relay-example"><p class="relay-example-kind">写真や短い動画と一緒に</p><h3>いつもの風景に、楽しみを。</h3>${post('relay-scenery',['バトン受け取った！🙌','12/22、私はこれが楽しみ → ライブの日のお出かけ。何を着て行こうかな、と考える時間からもう楽しい。今日は帰り道の空を1枚。皆さんは、どんなふうに当日を待っていますか？',baton])}${copy('relay-scenery')}</article>
   </div><p class="relay-care">写真は、ご自身で撮ったものや掲載してよいものを。チケットのQRコード・住所などが写り込まないよう、投稿前にひと目確認してください。</p></section>
   <section class="relay-thanks"><div class="container relay-thanks-grid"><div><p class="relay-kicker">PASS IT WITH THANKS</p><h2>「つないでくれて、<br>ありがとう。」</h2><p>投稿を見つけたら、ひとこと返してみませんか。<br>お礼も、共感も、次の楽しみにつながります。</p><p class="relay-example-note">返信の見本です。コメントは、それぞれのSNSで。</p></div><div class="relay-conversation"><div class="relay-conversation-post"><small>投稿の見本</small><p>ひとりで初参加。<br>歌を生で聴けるのが楽しみ！</p></div><div class="relay-reply"><span aria-hidden="true">♡</span><div><p id="relay-thanks-one">つないでくれてありがとう🙌<br>そのドキドキも、楽しみも、バトン受け取りました！</p>${copy('relay-thanks-one')}</div></div><div class="relay-reply"><span aria-hidden="true">✦</span><div><p id="relay-thanks-two">私も、最初の一音が楽しみ！<br>投稿を読んで、ますます待ち遠しくなりました。ありがとう！</p>${copy('relay-thanks-two')}</div></div><div class="relay-reply"><span aria-hidden="true">♫</span><div><p id="relay-thanks-three">おうち組からも、バトン受け取った！<br>一緒に楽しもうね。つないでくれてありがとう。</p>${copy('relay-thanks-three')}</div></div></div></div></section>
-  <section class="container relay-section relay-gather" id="gather"><div><p class="relay-kicker">「つないだよ！」が集まる場所。</p><h2>Facebookにも、<br>バトンを持ち寄ろう。</h2><p>集合先は「TOMA推し活project」グループ。企画の固定投稿を見つけて、ひとことコメントで参加できます。</p><p>アメブロやほかのSNSで書いた方は、「アメブロでつないだよ🙌」と記事のリンクを添えて。見つけた人も「見たよ！」「私も！」を気軽にどうぞ。</p>${external(RELAY_GROUP,'Facebookの集合場所へ','button relay-button')}<p class="relay-small">Facebookのログインや、グループへの参加が必要な場合があります。企画の固定投稿は、グループ内でご確認ください。</p></div><aside class="relay-platform-note"><h3>いつもの場所で、大丈夫。</h3><dl><div><dt>Facebook</dt><dd>企画の投稿にコメント。自分のタイムラインへの投稿でも。</dd></div><div><dt>アメブロ</dt><dd>記事にひとこと。共通タグは投稿画面のハッシュタグ設定へ。</dd></div><div><dt>X</dt><dd>ひとことポスト。見かけた投稿を引用してつないでも。</dd></div><div><dt>Instagram / TikTok</dt><dd>写真や短い動画に、自分の言葉と共通タグを添えて。</dd></div></dl></aside></section>
+  <section class="container relay-section relay-gather" id="gather"><div>
+    <p class="relay-kicker">「つないだよ！」が集まる場所。</p><h2>Facebookにも、<br>バトンを持ち寄ろう。</h2>
+    <p>集合先の「TOMA推し活project」は、推し活部のメンバー向けFacebookグループです。</p>
+    <h3 class="relay-member-heading">すでに入部している方</h3>
+    <p>グループを開いて、企画の固定投稿にひとことコメントで参加できます。</p>
+    <p>アメブロやほかのSNSで書いた方は、「アメブロでつないだよ🙌」と記事のリンクを添えて。見つけた人も「見たよ！」「私も！」を気軽にどうぞ。</p>
+    ${external(RELAY_GROUP,'Facebookの集合場所へ','button relay-button')}
+    <p class="relay-small">Facebookへのログインが必要です。企画の固定投稿は、グループ内でご確認ください。</p>
+    <section class="relay-join" aria-labelledby="relay-join-title"><h3 id="relay-join-title">まだ入部していない方へ</h3>
+      <p>一緒に「好き」を話せる仲間に出会いませんか。Facebookグループへの参加には、まず推し活部への入部が必要です。</p>
+      <p>入部対象は、とおまさんのライブに参加したことがある方。会場・オンライン配信のどちらも対象です。</p>
+      <a class="button button-outline" href="/club/#join">入部のご案内・申し込みへ</a>
+      <p class="relay-small">リレーは、入部前でもいつものSNSから参加できます。</p>
+    </section>
+  </div><aside class="relay-platform-note"><h3>いつもの場所で、大丈夫。</h3><dl><div><dt>Facebook</dt><dd>部員の方はグループでコメント。自分のタイムラインへの投稿でも。</dd></div><div><dt>アメブロ</dt><dd>記事にひとこと。共通タグは投稿画面のハッシュタグ設定へ。</dd></div><div><dt>X</dt><dd>ひとことポスト。見かけた投稿を引用してつないでも。</dd></div><div><dt>Instagram / TikTok</dt><dd>写真や短い動画に、自分の言葉と共通タグを添えて。</dd></div></dl></aside></section>
   <section class="container relay-live"><div><p class="relay-kicker">楽しみがふくらんだら。</p><h2>12月22日、WHITEBURN 5。</h2><p>東京・神田明神ホール。会場での参加、オンライン配信など、<br>公演とチケットの最新情報は公式の案内をご確認ください。</p>${external(official,'公式の公演・チケット案内へ','button button-outline')}</div><div class="relay-live-date" aria-hidden="true"><span>DECEMBER</span><strong>22</strong><small>2026 · TUESDAY</small></div></section>
   <section class="container relay-finish"><p>ひとことから、ひとりから。</p><h2>次のバトン、どうぞ！</h2><p>12/22、あなたは何が楽しみ？</p><a class="button relay-button" href="#relay-template">投稿文のひな形に戻る</a><p class="relay-small">主催：TOMA推し活部<br>ファンによる自主企画です。公演・アーティスト公式の企画とは運営が異なります。</p><a class="relay-text-link" href="/schedule/">これからの予定に戻る</a></section>
   <p class="sr-only" role="status" aria-live="polite" data-relay-copy-status></p>
